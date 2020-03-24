@@ -9972,6 +9972,10 @@ video {
   box-shadow: none;
 }
 
+.shadow-custom {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
 .hover\:shadow-xs:hover {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
 }
@@ -10012,6 +10016,10 @@ video {
   box-shadow: none;
 }
 
+.hover\:shadow-custom:hover {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+}
+
 .focus\:shadow-xs:focus {
   box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
 }
@@ -10050,6 +10058,10 @@ video {
 
 .focus\:shadow-none:focus {
   box-shadow: none;
+}
+
+.focus\:shadow-custom:focus {
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 }
 
 .fill-current {
@@ -11276,8 +11288,12 @@ video {
   font-size: 4rem;
 }
 
+.text-tiny {
+  font-size: .92rem;
+}
+
 .text-7xl {
-  font-size: 5.5rem;
+  font-size: 5.2rem;
 }
 
 .italic {
@@ -23452,6 +23468,10 @@ video {
     box-shadow: none;
   }
 
+  .sm\:shadow-custom {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  }
+
   .sm\:hover\:shadow-xs:hover {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
   }
@@ -23492,6 +23512,10 @@ video {
     box-shadow: none;
   }
 
+  .sm\:hover\:shadow-custom:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  }
+
   .sm\:focus\:shadow-xs:focus {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
   }
@@ -23530,6 +23554,10 @@ video {
 
   .sm\:focus\:shadow-none:focus {
     box-shadow: none;
+  }
+
+  .sm\:focus\:shadow-custom:focus {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
   }
 
   .sm\:fill-current {
@@ -24756,8 +24784,12 @@ video {
     font-size: 4rem;
   }
 
+  .sm\:text-tiny {
+    font-size: .92rem;
+  }
+
   .sm\:text-7xl {
-    font-size: 5.5rem;
+    font-size: 5.2rem;
   }
 
   .sm\:italic {
@@ -36933,6 +36965,10 @@ video {
     box-shadow: none;
   }
 
+  .md\:shadow-custom {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  }
+
   .md\:hover\:shadow-xs:hover {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
   }
@@ -36973,6 +37009,10 @@ video {
     box-shadow: none;
   }
 
+  .md\:hover\:shadow-custom:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  }
+
   .md\:focus\:shadow-xs:focus {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
   }
@@ -37011,6 +37051,10 @@ video {
 
   .md\:focus\:shadow-none:focus {
     box-shadow: none;
+  }
+
+  .md\:focus\:shadow-custom:focus {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
   }
 
   .md\:fill-current {
@@ -38237,8 +38281,12 @@ video {
     font-size: 4rem;
   }
 
+  .md\:text-tiny {
+    font-size: .92rem;
+  }
+
   .md\:text-7xl {
-    font-size: 5.5rem;
+    font-size: 5.2rem;
   }
 
   .md\:italic {
@@ -50414,6 +50462,10 @@ video {
     box-shadow: none;
   }
 
+  .lg\:shadow-custom {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  }
+
   .lg\:hover\:shadow-xs:hover {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
   }
@@ -50454,6 +50506,10 @@ video {
     box-shadow: none;
   }
 
+  .lg\:hover\:shadow-custom:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  }
+
   .lg\:focus\:shadow-xs:focus {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
   }
@@ -50492,6 +50548,10 @@ video {
 
   .lg\:focus\:shadow-none:focus {
     box-shadow: none;
+  }
+
+  .lg\:focus\:shadow-custom:focus {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
   }
 
   .lg\:fill-current {
@@ -51718,8 +51778,12 @@ video {
     font-size: 4rem;
   }
 
+  .lg\:text-tiny {
+    font-size: .92rem;
+  }
+
   .lg\:text-7xl {
-    font-size: 5.5rem;
+    font-size: 5.2rem;
   }
 
   .lg\:italic {
@@ -63895,6 +63959,10 @@ video {
     box-shadow: none;
   }
 
+  .xl\:shadow-custom {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  }
+
   .xl\:hover\:shadow-xs:hover {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
   }
@@ -63935,6 +64003,10 @@ video {
     box-shadow: none;
   }
 
+  .xl\:hover\:shadow-custom:hover {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
+  }
+
   .xl\:focus\:shadow-xs:focus {
     box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.05);
   }
@@ -63973,6 +64045,10 @@ video {
 
   .xl\:focus\:shadow-none:focus {
     box-shadow: none;
+  }
+
+  .xl\:focus\:shadow-custom:focus {
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
   }
 
   .xl\:fill-current {
@@ -65199,8 +65275,12 @@ video {
     font-size: 4rem;
   }
 
+  .xl\:text-tiny {
+    font-size: .92rem;
+  }
+
   .xl\:text-7xl {
-    font-size: 5.5rem;
+    font-size: 5.2rem;
   }
 
   .xl\:italic {
