@@ -1,45 +1,41 @@
 <template>
-<section class="md:mt-32 my-12 md:mt-16">
-        <p class="text-2xl font-bold mb-8 md:m-12 md:text-left text-center">Projects</p>
-        <div class="flex md:justify-around flex-col md:flex-row mx-4 md:mx-6">
+  <section class="my-20">
+    <h2 class="text-3xl">My <span class="font-semibold">projects</span>
+    </h2>
 
-            <div class="md:w-1/4 bg-gray-300 rounded-lg mt-5 md:mt-0">
-                <img class="rounded rounded-b-none p-px" src="">
-                <div class="p-5 md:h-48">
-                    <h4 class="font-bold text-lg mb-1">The Kesh Website</h4>
-                    <p class="">
-                        Non hendrerit orcipharetra nec. Quisque rutrum massa vitae ipsum vulputate, nec tristique mi placerat massa vitae ipsum vulputate, nec tristique mi placerat.
-                    </p>
-                </div>
-            </div>
-
-            <div class="md:w-1/4 bg-gray-300 rounded-lg mt-5 md:mt-0">
-                <img class="rounded rounded-b-none p-px" src="">
-                <div class="p-5 md:h-48">
-                    <h4 class="font-bold text-lg mb-1">The Kesh Website</h4>
-                    <p class="">
-                        Non hendrerit orcipharetra nec. Quisque rutrum massa vitae ipsum vulputate, nec tristique mi placerat massa vitae ipsum vulputate, nec tristique mi placerat.
-                    </p>
-                </div>
-            </div>
-
-            <div class="md:w-1/4 bg-gray-300 rounded-lg mt-5 md:mt-0">
-                <img class="rounded rounded-b-none p-px" src="">
-                <div class="p-5 md:h-48">
-                    <h4 class="font-bold text-lg mb-1">The Kesh Website</h4>
-                    <p class="">
-                        Non hendrerit orcipharetra nec. Quisque rutrum massa vitae ipsum vulputate, nec tristique mi placerat massa vitae ipsum vulputate, nec tristique mi placerat.
-                    </p>
-                </div>
-            </div>
-
+    <div class="text-gray-900 mx-5 lg:max-w-sm container-projects hover:shadow-2xl">
+        <div class="px-6 pt-12 pb-5 md:pt-0 md:pb-0 md:px-0 lg:pt-6 lg:pb-5 lg:px-8 flex flex-col md:flex-row lg:flex-col items-center">
+        <div class="">
+            <ComputerGradient width="11rem" height="11rem"/>
         </div>
-    </section>
-    
+        <div class="mt-6">
+        <h3 class="my-2 text-left flex text-2xl font-semibold">How vue bind really works?</h3>
+            <p class="text-left ">
+                Vue binding is one of the most used directives that you’ll use while working with vue, and here you will learn what you can and can’t do with it
+            </p>
+        </div>
+        </div>
+        <div class="bg-blue-500 w-full text-2xl md:text-xl font-semibold tracking-wider text-center text-white rounded-b-lg py-3">Check Out</div>
+    </div>
+
+
+
+  </section>
 </template>
 
 <script>
+import ComputerGradient from "@/components/svg/ComputerGradient.vue";
 export default {
-    
-}
+    components: {
+        ComputerGradient,
+    }
+};
 </script>
+
+<style scoped>
+.container-projects {
+    box-shadow: 0px 12px 26px rgba(123, 118, 118, 0.25);
+    border-radius: 21px;
+}
+
+</style>
