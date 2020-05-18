@@ -21,6 +21,8 @@
      </div>
      </div>
 
+     <div class="mx-auto w-2 h-32 bg-blue-700 line-decoration"></div>
+
   </section>
 </template>
 
@@ -56,6 +58,11 @@ export default {
 .container-header {
     margin-top: 10rem;
     margin-bottom: 14rem;
+}
+
+.line-decoration {
+  background: linear-gradient(180deg, #00C3FF 0%, rgba(0, 119, 255, 0) 100%), #0077FF;
+border-radius: 14px;
 }
 
 @media (max-width: 780px) {
