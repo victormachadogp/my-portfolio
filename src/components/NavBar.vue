@@ -5,8 +5,8 @@
 
     <div class="container-header">
     <div class="text-center">   
-        <h2 class="text-4xl md:text-6xl">Victor <span class="md:bg-blue-500 font-semibold">Machado</span></h2>
-        <p class="text-lg">Front-end Developer</p>
+        <h2 class="text-4xl md:text-6xl">Victor <span class="font-semibold">Machado</span></h2>
+        <p class="text-lg md:text-xl">Front-end Developer</p>
     </div>
 
     <div class="text-center my-8">
