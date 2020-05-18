@@ -10,7 +10,7 @@
     </div>
 
     <div class="text-center my-8">
-        <button class="text-2xl border px-16 py-1 border-black rounded-full hover:bg-black hover:text-white">Projects</button>
+        <button class="text-2xl border shadow-md px-16 py-1 border-black rounded-full hover:bg-black hover:text-white hover:shadow-2xl ">Projects</button>
     </div>
     
     <div class="flex justify-center">
