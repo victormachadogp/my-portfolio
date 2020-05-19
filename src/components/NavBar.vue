@@ -5,8 +5,8 @@
 
     <div class="container-header">
     <div class="text-center">   
-        <h2 class="text-4xl md:text-6xl">Victor <span class="md:bg-blue-500 font-semibold">Machado</span></h2>
-        <p class="text-lg">Front-end Developer</p>
+        <h2 class="text-4xl md:text-6xl">Victor <span class="font-semibold">Machado</span></h2>
+        <p class="text-lg md:text-xl">Front-end Developer</p>
     </div>
 
     <div class="text-center my-8">
@@ -20,6 +20,8 @@
      <TwitterIcon class="social-icon"/>
      </div>
      </div>
+
+     <div class="mx-auto w-2 h-32 bg-blue-700 line-decoration"></div>
 
   </section>
 </template>
@@ -55,7 +57,12 @@ export default {
 
 .container-header {
     margin-top: 10rem;
-    margin-bottom: 14rem;
+    margin-bottom: 13rem;
+}
+
+.line-decoration {
+  background: linear-gradient(180deg, #00C3FF 0%, rgba(0, 119, 255, 0) 100%), #0077FF;
+border-radius: 14px;
 }
 
 @media (max-width: 780px) {
