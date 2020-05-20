@@ -61,7 +61,7 @@ export default {
 
 .container-header {
     margin-top: 10rem;
-    margin-bottom: 9rem;
+    margin-bottom: 6rem;
 }
 
 .line-decoration {
