@@ -20,8 +20,12 @@
      <TwitterIcon class="social-icon"/>
      </div>
      </div>
+     
+     <div class="flex justify-center mt-10 mb-20">
+       <p class="text-lg text-center">I’m a Front-End Developer based in São Paulo - BR. Currently focusing in <span class="font-bold">Javascript</span> and <span class="font-bold">Vue</span></p>
+     </div>
 
-     <div class="mx-auto w-2 h-32 bg-blue-700 line-decoration"></div>
+     <div class="mx-auto w-2 h-32 md:h-16 bg-blue-700 line-decoration"></div>
 
   </section>
 </template>
@@ -57,7 +61,7 @@ export default {
 
 .container-header {
     margin-top: 10rem;
-    margin-bottom: 13rem;
+    margin-bottom: 6rem;
 }
 
 .line-decoration {
@@ -65,9 +69,12 @@ export default {
 border-radius: 14px;
 }
 
+
 @media (max-width: 780px) {
     .container-header {
-    margin-top: 18rem;
+    margin-top: 13.5rem;
+    margin-bottom: 3rem;
+
 }
 
 }
