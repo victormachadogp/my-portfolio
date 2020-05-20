@@ -1,12 +1,12 @@
 <template>
   <section class="my-20 md:mx-6 lg:mx-2">
-    <h2 class="text-3xl my-5 mx-6 md:mx-0">My <span class="font-semibold">projects</span>
+    <h2 class="text-3xl my-10 md:my-5 mx-6 md:mx-0">My <span class="font-semibold">projects</span>
     </h2>
 
     <div class="flex items-center grid grid-cols-1 lg:grid-cols-3 gap-4">
 
     <!-- Box 1  -->
-    <div class=" lg:max-w-sm container-projects hover:shadow-2xl">
+    <div class=" lg:max-w-sm container-projects hover:shadow-2xl mb-3">
         <div class="px-6 pt-12 pb-5 md:pt-0 md:pb-0 md:px-0 lg:pt-6 lg:pb-5 lg:px-8 flex flex-col md:flex-row lg:flex-col items-center">
         <div class="">
             <ComputerGradient width="7rem" height="7rem"/>
@@ -22,7 +22,7 @@
     </div>
 
     <!-- Box 2 -->
- <div class=" lg:max-w-sm container-projects hover:shadow-2xl">
+ <div class=" lg:max-w-sm container-projects hover:shadow-2xl mb-3">
         <div class="px-6 pt-12 pb-5 md:pt-0 md:pb-0 md:px-0 lg:pt-6 lg:pb-5 lg:px-8 flex flex-col md:flex-row lg:flex-col items-center">
         <div class="">
             <ComputerGradient width="7rem" height="7rem"/>
@@ -38,7 +38,7 @@
     </div>
 
     <!-- Box 3 -->
- <div class=" lg:max-w-sm container-projects hover:shadow-2xl">
+ <div class=" lg:max-w-sm container-projects hover:shadow-2xl mb-3">
         <div class="px-6 pt-12 pb-5 md:pt-0 md:pb-0 md:px-0 lg:pt-6 lg:pb-5 lg:px-8 flex flex-col md:flex-row lg:flex-col items-center">
         <div class="">
             <ComputerGradient width="7rem" height="7rem"/>
