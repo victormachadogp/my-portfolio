@@ -20,10 +20,9 @@
      <TwitterIcon class="social-icon"/>
      </div>
      </div>
-
      
      <div class="flex justify-center mt-10 mb-20">
-       <p class="text-lg text-center">I’m a Front-End Developer based in São Paulo - BR. Currently focusing in Javascript and Vue</p>
+       <p class="text-lg text-center">I’m a Front-End Developer based in São Paulo - BR. Currently focusing in <span class="font-bold">Javascript</span> and <span class="font-bold">Vue</span></p>
      </div>
 
      <div class="mx-auto w-2 h-32 bg-blue-700 line-decoration"></div>
@@ -69,6 +68,7 @@ export default {
   background: linear-gradient(180deg, #00C3FF 0%, rgba(0, 119, 255, 0) 100%), #0077FF;
 border-radius: 14px;
 }
+
 
 @media (max-width: 780px) {
     .container-header {
