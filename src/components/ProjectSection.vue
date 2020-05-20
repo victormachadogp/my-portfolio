@@ -71,7 +71,7 @@ export default {
 <style scoped>
 .container-projects {
     @apply text-gray-900 mx-4 ;
-    box-shadow: 0px 12px 26px rgba(123, 118, 118, 0.25);
+    box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
     border-radius: 21px;
     min-width: 20rem;
 }
