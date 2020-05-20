@@ -25,7 +25,7 @@
        <p class="text-lg text-center">I’m a Front-End Developer based in São Paulo - BR. Currently focusing in <span class="font-bold">Javascript</span> and <span class="font-bold">Vue</span></p>
      </div>
 
-     <div class="mx-auto w-2 h-32 bg-blue-700 line-decoration"></div>
+     <div class="mx-auto w-2 h-32 md:h-16 bg-blue-700 line-decoration"></div>
 
   </section>
 </template>
