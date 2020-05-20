@@ -57,7 +57,7 @@ export default {
 
 .container-header {
     margin-top: 10rem;
-    margin-bottom: 13rem;
+    margin-bottom: 9rem;
 }
 
 .line-decoration {
@@ -67,7 +67,7 @@ border-radius: 14px;
 
 @media (max-width: 780px) {
     .container-header {
-    margin-top: 18rem;
+    margin-top: 13.5rem;
 }
 
 }
