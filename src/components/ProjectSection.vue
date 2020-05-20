@@ -9,48 +9,48 @@
     <div class=" lg:max-w-sm container-projects hover:shadow-2xl">
         <div class="px-6 pt-12 pb-5 md:pt-0 md:pb-0 md:px-0 lg:pt-6 lg:pb-5 lg:px-8 flex flex-col md:flex-row lg:flex-col items-center">
         <div class="">
-            <ComputerGradient width="10rem" height="10rem"/>
+            <ComputerGradient width="7rem" height="7rem"/>
         </div>
         <div class="mt-6">
-        <h3 class="my-2 text-left flex text-2xl font-semibold">How vue bind really works?</h3>
+        <h3 class="my-2 text-left flex text-2xl md:text-xl font-semibold">How Vue bind really works?</h3>
             <p class="text-left ">
                 Vue binding is one of the most used directives that you’ll use while working with vue, and here you will learn what you can and can’t do with it
             </p>
         </div>
         </div>
-        <div class="bg-blue-500 w-full text-2xl md:text-xl font-semibold tracking-wider text-center text-white rounded-b-lg py-3">Check It Out</div>
+        <div class="bg-blue-500 w-full text-xl md:text-base font-semibold tracking-wider text-center text-white rounded-b-lg py-3">Check It Out</div>
     </div>
 
     <!-- Box 2 -->
  <div class=" lg:max-w-sm container-projects hover:shadow-2xl">
         <div class="px-6 pt-12 pb-5 md:pt-0 md:pb-0 md:px-0 lg:pt-6 lg:pb-5 lg:px-8 flex flex-col md:flex-row lg:flex-col items-center">
         <div class="">
-            <ComputerGradient width="10rem" height="10rem"/>
+            <ComputerGradient width="7rem" height="7rem"/>
         </div>
         <div class="mt-6">
-        <h3 class="my-2 text-left flex text-2xl font-semibold">How vue bind really works?</h3>
+        <h3 class="my-2 text-left flex text-2xl md:text-xl font-semibold">How Vue bind really works?</h3>
             <p class="text-left ">
                 Vue binding is one of the most used directives that you’ll use while working with vue, and here you will learn what you can and can’t do with it
             </p>
         </div>
         </div>
-        <div class="bg-blue-500 w-full text-2xl md:text-xl font-semibold tracking-wider text-center text-white rounded-b-lg py-3">Check It Out</div>
+        <div class="bg-blue-500 w-full text-xl md:text-base font-semibold tracking-wider text-center text-white rounded-b-lg py-3">Check It Out</div>
     </div>
 
     <!-- Box 3 -->
  <div class=" lg:max-w-sm container-projects hover:shadow-2xl">
         <div class="px-6 pt-12 pb-5 md:pt-0 md:pb-0 md:px-0 lg:pt-6 lg:pb-5 lg:px-8 flex flex-col md:flex-row lg:flex-col items-center">
         <div class="">
-            <ComputerGradient width="10rem" height="10rem"/>
+            <ComputerGradient width="7rem" height="7rem"/>
         </div>
         <div class="mt-6">
-        <h3 class="my-2 text-left flex text-2xl font-semibold">How vue bind really works?</h3>
-            <p class="text-left ">
+        <h3 class="my-2 text-left flex text-2xl md:text-xl font-semibold">How Vue bind really works?</h3>
+            <p class="text-left text-base ">
                 Vue binding is one of the most used directives that you’ll use while working with vue, and here you will learn what you can and can’t do with it
             </p>
         </div>
         </div>
-        <div class="bg-blue-500 w-full text-2xl md:text-xl font-semibold tracking-wider text-center text-white rounded-b-lg py-3">Check It Out</div>
+        <div class="bg-blue-500 w-full text-xl md:text-base font-semibold tracking-wider text-center text-white rounded-b-lg py-3">Check It Out</div>
     </div>
 
 
