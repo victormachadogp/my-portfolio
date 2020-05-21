@@ -1,9 +1,9 @@
 <template>
-  <section class="mb-20 mt-16 md:mx-6 lg:mx-2">
+  <section class="mb-20 mt-16 md:mx-6 lg:mx-10">
     <h2 class="text-3xl my-10 md:my-5 mx-6 md:mx-4">My <span class="font-semibold">projects</span>
     </h2>
 
-    <div class="flex items-center grid grid-cols-1 lg:grid-cols-3 gap-4">
+    <div class="flex items-center grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-0">
 
     <!-- Box 1  -->
     <div class=" lg:max-w-sm lg:block container-projects hover:shadow-2xl mb-3">
