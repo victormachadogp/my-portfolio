@@ -14,18 +14,18 @@
     </div>
     
     <div class="flex justify-center">
-     <GithubIcon class="social-icon" />
+     <a href="https://github.com/victormachadogp"><GithubIcon class="social-icon" /></a>
      <LinkedinIcon class="social-icon"/>
      <EmailIcon class="social-icon"/>
      <TwitterIcon class="social-icon"/>
      </div>
      </div>
      
-     <div class="flex justify-center mt-10 mb-20">
+     <div class="flex justify-center mt-10 mb-16">
        <p class="text-lg text-center">I’m a Front-End Developer based in São Paulo - BR. Currently focusing in <span class="font-bold">Javascript</span> and <span class="font-bold">Vue</span></p>
      </div>
 
-     <div class="mx-auto w-2 h-32 md:h-16 bg-blue-700 line-decoration"></div>
+     <div class="mx-auto w-2 h-24 md:h-16 bg-blue-700 line-decoration"></div>
 
   </section>
 </template>
