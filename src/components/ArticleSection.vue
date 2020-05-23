@@ -1,7 +1,7 @@
 <template>
     <section class="mb-10">
         <p class="text-3xl font-semibold mb-4 md:m-12 md:text-left mx-5">Articles</p>
-        <div class="flex flex-col">
+        <div class="flex flex-col md:ml-4">
 
 
             <div class=" bg-white shadow-custom md:mx-3 md:w-2/4 rounded-lg my-6 md:mt-0">
