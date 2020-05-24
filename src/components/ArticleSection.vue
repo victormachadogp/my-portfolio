@@ -9,6 +9,7 @@
                     <h4 class="font-semibold text-xl mb-3">How to work with Vue Binding</h4>
                     <p class="text-tiny">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ea ex nam rerum laborum blanditiis, dolorum ut.
+                    </p>
                 </div>
             </div> 
 
