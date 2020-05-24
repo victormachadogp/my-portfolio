@@ -8,7 +8,7 @@
                 <div class="p-5">
                     <h4 class="font-semibold text-xl mb-3">How to work with Vue Binding</h4>
                     <p class="text-tiny">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ea ex nam rerum laborum blanditiis, dolorum ut. Labore esse odit tempore rem eveniet, ullam suscipit ipsum magni excepturi accusantium harum nemo id distinctio quia molestiae perferendis?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ea ex nam rerum laborum blanditiis, dolorum ut.
                     </p>
                 </div>
             </div> 
@@ -17,7 +17,7 @@
                 <div class="p-5">
                     <h4 class="font-semibold text-xl mb-3">How to use Vue Props</h4>
                     <p class="text-tiny">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ea ex nam rerum laborum blanditiis, dolorum ut. Labore esse odit tempore rem eveniet, ullam suscipit ipsum magni excepturi accusantium harum nemo id distinctio quia molestiae perferendis?
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ea ex nam rerum laborum blanditiis, dolorum ut. Labore esse odit tempore rem eveniet.
                     </p>
                 </div>
             </div>
