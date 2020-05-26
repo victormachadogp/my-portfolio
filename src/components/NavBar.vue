@@ -1,50 +1,31 @@
 <template>
   <section class="">
-    <SvgHeaderOne class="absolute top-0 left-0" />
-    <SvgHeaderTwo class="absolute top-0 right-0" />
+    <SvgHeaderOne/>
 
-    <div class="container-header">
-    <div class="text-center">   
-        <h2 class="text-4xl md:text-6xl">Victor <span class="font-semibold">Machado</span></h2>
-        <p class="text-lg md:text-xl">Front-end Developer</p>
+    <div>
+      
+
+
     </div>
-
-    <div class="text-center my-8">
-        <button class="text-2xl border shadow-md px-16 py-1 border-black rounded-full hover:bg-black hover:text-white hover:shadow-2xl ">Projects</button>
-    </div>
-    
-    <div class="flex justify-center">
-     <a href="https://github.com/victormachadogp"><GithubIcon class="social-icon" /></a>
-     <LinkedinIcon class="social-icon"/>
-     <EmailIcon class="social-icon"/>
-     <TwitterIcon class="social-icon"/>
-     </div>
-     </div>
-     
-     <div class="flex justify-center mt-10 mb-16">
-       <p class="text-lg text-center mx-3 md:mx-5">I’m a Front-End Developer based in São Paulo - BR. Currently focusing in <span class="font-bold">Javascript</span> and <span class="font-bold">Vue</span></p>
-     </div>
-
-     <div class="mx-auto w-2 h-24 md:h-16 bg-blue-700 line-decoration"></div>
-
+   
   </section>
 </template>
 
 <script>
 import SvgHeaderOne from "@/components/svg/SvgHeaderOne.vue";
-import SvgHeaderTwo from "@/components/svg/SvgHeaderTwo.vue";
-import GithubIcon from "@/components/icons/GithubIcon.vue";
-import LinkedinIcon from "@/components/icons/LinkedinIcon.vue";
-import EmailIcon from "@/components/icons/EmailIcon.vue";
-import TwitterIcon from "@/components/icons/TwitterIcon.vue";
+// import SvgHeaderTwo from "@/components/svg/SvgHeaderTwo.vue";
+// import GithubIcon from "@/components/icons/GithubIcon.vue";
+// import LinkedinIcon from "@/components/icons/LinkedinIcon.vue";
+// import EmailIcon from "@/components/icons/EmailIcon.vue";
+// import TwitterIcon from "@/components/icons/TwitterIcon.vue";
 export default {
   components: {
-    SvgHeaderOne,
-    SvgHeaderTwo,
-    GithubIcon,
-    LinkedinIcon,
-    EmailIcon,
-    TwitterIcon
+    SvgHeaderOne
+  //   SvgHeaderTwo,
+  //   GithubIcon,
+  //   LinkedinIcon,
+  //   EmailIcon,
+  //   TwitterIcon
   }
 };
 </script>
