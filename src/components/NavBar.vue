@@ -22,7 +22,7 @@
      </div>
      
      <div class="flex justify-center mt-10 mb-16">
-       <p class="text-lg text-center mx-3">I’m a Front-End Developer based in São Paulo - BR. Currently focusing in <span class="font-bold">Javascript</span> and <span class="font-bold">Vue</span></p>
+       <p class="text-lg text-center mx-3 md:mx-5">I’m a Front-End Developer based in São Paulo - BR. Currently focusing in <span class="font-bold">Javascript</span> and <span class="font-bold">Vue</span></p>
      </div>
 
      <div class="mx-auto w-2 h-24 md:h-16 bg-blue-700 line-decoration"></div>
