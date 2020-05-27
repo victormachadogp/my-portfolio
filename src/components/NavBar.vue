@@ -1,38 +1,29 @@
 <template>
-  <section class="">
-    <SvgHeaderOne class="absolute top-0 left-0" />
-    <SvgHeaderTwo class="absolute top-0 right-0" />
+  <section class="relative overflow-x-hidden">
+    <SvgHeaderOne class=" test"/>
+    <div class="max-w-6xl mx-auto nav px-4">
+      <div class="flex flex-col md:flex-row justify-between items-center bg-white p-10 rounded-lg container-border ">
+        <h2 class="text-3xl font-semibold">Victor Machado</h2>
+        <p class="text-xl text-gray-700 mb-2">Front-End Developer</p>
+        <div class="flex">
+          <GithubIcon class="social-icon" />
+          <LinkedinIcon class="social-icon"/>
+          <TwitterIcon class="social-icon"/>
+          <EmailIcon class="social-icon"/>
+        </div>
 
-    <div class="container-header">
-    <div class="text-center">   
-        <h2 class="text-4xl md:text-6xl">Victor <span class="font-semibold">Machado</span></h2>
-        <p class="text-lg md:text-xl">Front-end Developer</p>
+      </div>
+
+
+
     </div>
-
-    <div class="text-center my-8">
-        <button class="text-2xl border shadow-md px-16 py-1 border-black rounded-full hover:bg-black hover:text-white hover:shadow-2xl ">Projects</button>
-    </div>
-    
-    <div class="flex justify-center">
-     <a href="https://github.com/victormachadogp"><GithubIcon class="social-icon" /></a>
-     <LinkedinIcon class="social-icon"/>
-     <EmailIcon class="social-icon"/>
-     <TwitterIcon class="social-icon"/>
-     </div>
-     </div>
-     
-     <div class="flex justify-center mt-10 mb-16">
-       <p class="text-lg text-center mx-3 md:mx-5">I’m a Front-End Developer based in São Paulo - BR. Currently focusing in <span class="font-bold">Javascript</span> and <span class="font-bold">Vue</span></p>
-     </div>
-
-     <div class="mx-auto w-2 h-24 md:h-16 bg-blue-700 line-decoration"></div>
-
+   
   </section>
 </template>
 
 <script>
 import SvgHeaderOne from "@/components/svg/SvgHeaderOne.vue";
-import SvgHeaderTwo from "@/components/svg/SvgHeaderTwo.vue";
+// import SvgHeaderTwo from "@/components/svg/SvgHeaderTwo.vue";
 import GithubIcon from "@/components/icons/GithubIcon.vue";
 import LinkedinIcon from "@/components/icons/LinkedinIcon.vue";
 import EmailIcon from "@/components/icons/EmailIcon.vue";
@@ -40,7 +31,7 @@ import TwitterIcon from "@/components/icons/TwitterIcon.vue";
 export default {
   components: {
     SvgHeaderOne,
-    SvgHeaderTwo,
+  //   SvgHeaderTwo,
     GithubIcon,
     LinkedinIcon,
     EmailIcon,
@@ -53,29 +44,26 @@ export default {
 .social-icon {
     width: 39px;
     height: 39px;
-    margin-top: 1rem;
+    /* margin-top: 1rem;
     margin-left: 1rem;
-    margin-right: 1rem;
+    margin-right: 1rem; */
     cursor: pointer;
 }
 
-.container-header {
-    margin-top: 10rem;
-    margin-bottom: 6rem;
+.nav {
+  position: relative;
+  bottom: 4rem;
 }
 
-.line-decoration {
-  background: linear-gradient(180deg, #00C3FF 0%, rgba(0, 119, 255, 0) 100%), #0077FF;
-border-radius: 14px;
+.container-border {
+  border: 1px solid white;
+  box-sizing: border-box;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.test {
+  width: auto;
 }
 
 
-@media (max-width: 780px) {
-    .container-header {
-    margin-top: 13.5rem;
-    margin-bottom: 3rem;
-
-}
-
-}
 </style>
