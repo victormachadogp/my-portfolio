@@ -1,10 +1,10 @@
 <template>
-  <section class="">
-    <SvgHeaderOne/>
-    <div class="max-w-6xl mx-auto nav">
-      <div class="flex justify-between items-center bg-white p-10 rounded-lg container-border ">
+  <section class="relative overflow-x-hidden">
+    <SvgHeaderOne class=" test"/>
+    <div class="max-w-6xl mx-auto nav px-4">
+      <div class="flex flex-col md:flex-row justify-between items-center bg-white p-10 rounded-lg container-border ">
         <h2 class="text-3xl font-semibold">Victor Machado</h2>
-        <p class="text-xl text-gray-700">Front-End Developer</p>
+        <p class="text-xl text-gray-700 mb-2">Front-End Developer</p>
         <div class="flex">
           <GithubIcon class="social-icon" />
           <LinkedinIcon class="social-icon"/>
@@ -52,7 +52,7 @@ export default {
 
 .nav {
   position: relative;
-  bottom: 3rem;
+  bottom: 4rem;
 }
 
 .container-border {
@@ -60,5 +60,10 @@ export default {
   box-sizing: border-box;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+
+.test {
+  width: auto;
+}
+
 
 </style>
