@@ -3,9 +3,14 @@
     <SvgHeaderOne class=" test"/>
     <div class="max-w-6xl mx-auto nav px-8 md:px-4">
       <div class="flex flex-col md:flex-row justify-between items-center bg-white p-6 md:p-10 rounded-lg container-border ">
-        <h2 class="text-3xl font-semibold mb-3 md:mb-0">Victor Machado</h2>
-        <p class="text-lg md:text-xl text-gray-700 mb-3 md:mb-0">Front-End Developer</p>
-        <div class="flex mt-3 md:mt-0">
+        <div class="flex items-center">
+          <h2 class="text-3xl font-semibold mb-3 md:mb-0">Victor Machado</h2>
+          <div class="ball-decoration mx-4  hidden md:block"></div>
+        </div>
+        
+        <p class="text-lg md:text-xl text-gray-700 mb-3 md:mb-0 text-center">Front-End Developer</p>
+        <div class="flex mt-3 md:mt-0 flex items-center">
+          <div class="ball-decoration mx-4 hidden md:block"></div>
           <GithubIcon class="social-icon" />
           <LinkedinIcon class="social-icon"/>
           <TwitterIcon class="social-icon"/>
@@ -73,6 +78,13 @@ export default {
 
 .test {
   width: auto;
+}
+
+.ball-decoration {
+  width: 8px;
+  height: 8px;
+  background-color: black;
+  border-radius: 100%;
 }
 
 @media (max-width: 768px){
