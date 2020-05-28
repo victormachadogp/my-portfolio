@@ -1,11 +1,11 @@
 <template>
   <section class="relative overflow-x-hidden">
     <SvgHeaderOne class=" test"/>
-    <div class="max-w-6xl mx-auto nav px-4">
-      <div class="flex flex-col md:flex-row justify-between items-center bg-white p-10 rounded-lg container-border ">
-        <h2 class="text-3xl font-semibold">Victor Machado</h2>
-        <p class="text-xl text-gray-700 mb-2">Front-End Developer</p>
-        <div class="flex">
+    <div class="max-w-6xl mx-auto nav px-8 md:px-4">
+      <div class="flex flex-col md:flex-row justify-between items-center bg-white p-6 md:p-10 rounded-lg container-border ">
+        <h2 class="text-3xl font-semibold mb-3 md:mb-0">Victor Machado</h2>
+        <p class="text-lg md:text-xl text-gray-700 mb-3 md:mb-0">Front-End Developer</p>
+        <div class="flex mt-3 md:mt-0">
           <GithubIcon class="social-icon" />
           <LinkedinIcon class="social-icon"/>
           <TwitterIcon class="social-icon"/>
@@ -44,10 +44,20 @@ export default {
 .social-icon {
     width: 39px;
     height: 39px;
-    /* margin-top: 1rem;
-    margin-left: 1rem;
-    margin-right: 1rem; */
+    margin-left: 0.8rem;
+    margin-right: 0.8rem;
     cursor: pointer;
+}
+
+@media (min-width: 768px){
+  .social-icon {
+    width: 39px;
+    height: 39px;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    cursor: pointer;
+}
+
 }
 
 .nav {
@@ -64,6 +74,17 @@ export default {
 .test {
   width: auto;
 }
+
+@media (max-width: 768px){
+ .test {
+  width: 120%;
+  height: 100%;
+}
+}
+
+
+
+
 
 
 </style>
