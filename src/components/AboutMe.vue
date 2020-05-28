@@ -1,6 +1,13 @@
 <template>
-    <section>
-        <h2>Hello</h2>
+    <section class="px-8">
+        <h2 class="text-center text-5xl font-semibold mb-4">Hello</h2>
+
+        <div class="flex justify-center">
+        <div class="line-decoration"></div>
+        </div>
+
+        <p class="mt-8">I’m a Front-End Developer based in São Paulo - BR. Currently focusing in <span class="font-bold">Javascript</span> and <span class="font-bold">Vue</span>
+</p>
 
     </section>
     
@@ -13,5 +20,12 @@ export default {
 </script>
 
 <style scoped>
+
+.line-decoration {
+    background: linear-gradient(90deg, #0077FF 4.99%, #00C3FF 88.98%);
+    border-radius: 4px;
+    width: 60px ;
+    height: 7px;
+}
 
 </style>
