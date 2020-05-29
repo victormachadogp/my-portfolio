@@ -1,7 +1,7 @@
 <template>
   <section class="relative overflow-x-hidden">
     <SvgHeaderOne class=" test"/>
-    <div class="max-w-6xl mx-auto nav px-8 md:px-4">
+    <div class="max-w-6xl mx-auto nav px-3 md:px-4">
       <div class="flex flex-col md:flex-row justify-between items-center bg-white p-6 md:p-10 rounded-lg container-border ">
         <div class="flex items-center">
           <h2 class="text-3xl font-semibold mb-3 md:mb-0">Victor Machado</h2>
