@@ -1,8 +1,8 @@
 <template>
     <section class="px-8">
-        <h2 class="text-center text-5xl font-semibold mb-4">Hello</h2>
+        <h2 class="text-left md:text-center text-5xl font-semibold mb-4">Hello</h2>
 
-        <div class="flex justify-center">
+        <div class="flex justify-start md:justify-center">
         <div class="line-decoration"></div>
         </div>
 
