@@ -1,5 +1,5 @@
 <template>
-<svg class="testTwo" viewBox="0 0 1440 243" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg viewBox="0 0 1440 243" fill="none" xmlns="http://www.w3.org/2000/svg">
 <rect x="-19" y="-40.4341" width="1459" height="283.434" fill="url(#paint3_linear)"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M1652.49 -42.5589L1055 -135.49L935.398 243H1562.26L1652.49 -42.5589Z" fill="url(#paint2_linear)"/>
 <defs>
