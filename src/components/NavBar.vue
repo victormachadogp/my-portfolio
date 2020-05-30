@@ -1,7 +1,7 @@
 <template>
   <section class="relative overflow-x-hidden">
     <SvgHeaderOne class="test"/>
-    <SvgHeaderTwo class="" />
+    <SvgHeaderTwo class="testTwo"/>
     <div class="max-w-6xl mx-auto nav px-3 md:px-4">
       <div class="flex flex-col md:flex-row justify-between items-center bg-white p-6 md:p-10 rounded-lg container-border ">
         <div class="flex items-center">
@@ -87,20 +87,4 @@ export default {
   background-color: black;
   border-radius: 100%;
 }
-
-@media (min-width: 768px){
- .test {
-  width: 100%;
-  height: 100%;
-}
-}
-
-
-
-
-
-
-
-
-
 </style>
