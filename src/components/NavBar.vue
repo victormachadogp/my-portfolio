@@ -1,7 +1,8 @@
 <template>
   <section class="relative overflow-x-hidden">
-    <SvgHeaderOne class=" test"/>
-    <div class="max-w-6xl mx-auto nav px-8 md:px-4">
+    <SvgHeaderOne class="test"/>
+    <SvgHeaderTwo class="testTwo"/>
+    <div class="max-w-6xl mx-auto nav px-3 md:px-4">
       <div class="flex flex-col md:flex-row justify-between items-center bg-white p-6 md:p-10 rounded-lg container-border ">
         <div class="flex items-center">
           <h2 class="text-3xl font-semibold mb-3 md:mb-0">Victor Machado</h2>
@@ -28,7 +29,7 @@
 
 <script>
 import SvgHeaderOne from "@/components/svg/SvgHeaderOne.vue";
-// import SvgHeaderTwo from "@/components/svg/SvgHeaderTwo.vue";
+import SvgHeaderTwo from "@/components/svg/SvgHeaderTwo.vue";
 import GithubIcon from "@/components/icons/GithubIcon.vue";
 import LinkedinIcon from "@/components/icons/LinkedinIcon.vue";
 import EmailIcon from "@/components/icons/EmailIcon.vue";
@@ -36,7 +37,7 @@ import TwitterIcon from "@/components/icons/TwitterIcon.vue";
 export default {
   components: {
     SvgHeaderOne,
-  //   SvgHeaderTwo,
+    SvgHeaderTwo,
     GithubIcon,
     LinkedinIcon,
     EmailIcon,
@@ -86,17 +87,4 @@ export default {
   background-color: black;
   border-radius: 100%;
 }
-
-@media (max-width: 768px){
- .test {
-  width: 120%;
-  height: 100%;
-}
-}
-
-
-
-
-
-
 </style>

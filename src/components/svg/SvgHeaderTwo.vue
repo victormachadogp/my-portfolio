@@ -1,5 +1,31 @@
 <template>
-<svg width="414" height="636" viewBox="0 0 414 636" fill="none" xmlns="http://www.w3.org/2000/svg">
-<path d="M646.953 38.5795C685.727 80.5993 789.886 69.5143 800.065 98.5897C810.014 127.113 755.665 157.022 716.254 182.322C677.251 207.837 653.594 228.958 628.271 269.023C602.719 308.535 575.271 366.438 543.473 359.559C511.496 353.018 474.939 281.142 434.156 241.94C392.966 202.523 347.905 195.105 294.202 171.49C241.085 147.752 179.912 107.695 153.35 58.3345C126.381 8.7584 134.024 -50.1216 165.557 -92.0783C196.911 -133.698 252.333 -158.731 307.232 -168.959C362.716 -179.308 418.44 -175.309 472.23 -170.609C526.249 -165.356 578.512 -159.737 606.562 -128.983C634.203 -98.443 607.593 -3.31838 646.953 38.5795Z" fill="#0077FF"/>
+<svg viewBox="0 0 1440 243" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="-19" y="-40.4341" width="1459" height="283.434" fill="url(#paint3_linear)"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M1652.49 -42.5589L1055 -135.49L935.398 243H1562.26L1652.49 -42.5589Z" fill="url(#paint2_linear)"/>
+<defs>
+<linearGradient id="paint3_linear" x1="236.205" y1="38.4925" x2="1165.31" y2="531.938" gradientUnits="userSpaceOnUse">
+<stop stop-color="#0077FF"/>
+<stop offset="1" stop-color="#00C3FF"/>
+</linearGradient>
+<linearGradient id="paint2_linear" x1="1371.5" y1="223.005" x2="1057.68" y2="186.201" gradientUnits="userSpaceOnUse">
+<stop stop-color="#00C3FF"/>
+<stop offset="1" stop-color="#0085FF"/>
+</linearGradient>
+</defs>
 </svg>
+
 </template>
+
+<style scoped>
+
+@media (max-width: 768px){
+ .testTwo {
+  width: 120%;
+  height: 100%;
+  display: none;
+}
+}
+
+
+
+</style>
