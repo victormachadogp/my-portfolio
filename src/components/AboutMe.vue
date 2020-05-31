@@ -6,11 +6,10 @@
         <div class="line-decoration"></div>
         </div>
 
-        <p class="mt-8 md:text-center">I’m a Front-End Developer based in São Paulo - BR. Currently focusing in <span class="font-bold">Javascript</span> and <span class="font-bold">Vue</span>
+        <p class="mt-8 md:text-center text-lg">I’m a Front-End Developer based in São Paulo - BR. Currently focusing in <span class="font-bold">Javascript</span> and <span class="font-bold">Vue</span>
 </p>
 
     </section>
-    
 </template>
 
 <script>
