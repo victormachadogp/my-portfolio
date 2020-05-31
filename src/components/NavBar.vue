@@ -3,13 +3,14 @@
     <SvgHeaderOne class="test"/>
     <SvgHeaderTwo class="testTwo"/>
     <div class="max-w-6xl mx-auto nav px-3 md:px-4">
-      <div class="flex flex-col md:flex-row justify-between items-center bg-white p-6 md:p-10 rounded-lg container-border ">
+      <div class="flex flex-col md:flex-row justify-between items-center bg-white p-6 md:p-8 lg:p-10 rounded-lg container-border ">
         <div class="flex items-center">
-          <h2 class="text-3xl font-semibold mb-3 md:mb-0">Victor Machado</h2>
-          <div class="ball-decoration mx-4  hidden md:block"></div>
+          <h2 class="text-3xl md:text-2xl lg:text-3xl font-semibold mb-3 md:mb-0">Victor Machado</h2>
+          <div class="ball-decoration mx-4 hidden md:block"></div>
         </div>
-        
-        <p class="text-lg md:text-xl text-gray-700 mb-3 md:mb-0 text-center">Front-End Developer</p>
+        <div class="flex items-center justify-center">
+          <p class="text-lg ml-2 md:text-xl lg:text-2xl text-gray-700 mb-3 md:mb-0 text-center">Front-End Developer</p>
+        </div>
         <div class="flex mt-3 md:mt-0 flex items-center">
           <div class="ball-decoration mx-4 hidden md:block"></div>
           <GithubIcon class="social-icon" />
@@ -55,15 +56,14 @@ export default {
     cursor: pointer;
 }
 
-@media (min-width: 768px){
+@media (min-width: 768px) and (max-width: 1024px){
   .social-icon {
-    width: 39px;
-    height: 39px;
+    width: 35px;
+    height: 35px;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     cursor: pointer;
 }
-
 }
 
 .nav {
