@@ -18,7 +18,7 @@
 
 <style scoped>
 
-@media (max-width: 767px){
+@media (max-width: 788px){
  .testTwo {
   width: 120%;
   height: 100%;

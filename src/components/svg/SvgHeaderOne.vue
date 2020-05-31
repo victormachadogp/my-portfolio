@@ -18,7 +18,7 @@
 
 <style scoped>
 
-@media (min-width: 768px){
+@media (min-width: 789px){
  .test {
   width: 120%;
   height: 100%;
