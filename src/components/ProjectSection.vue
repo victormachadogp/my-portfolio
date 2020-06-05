@@ -3,10 +3,10 @@
       <div class="mb-20 mt-16 md:mx-6 lg:mx-10">
     <h2 class="text-3xl pt-8 text-center my-10 md:my-5 mx-6 md:mx-4">Projects</h2>
 
-    <div class="flex items-center grid grid-cols-1 lg:grid-cols-3 gap-4 lg:gap-0">
+    <div class="flex grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-0 container-all">
 
     <!-- Box 1 -->
-    <div class=" lg:max-w-sm lg:block container-projects hover:shadow-2xl mb-3 bg-white">
+    <div class="flex-col lg:max-w-sm container-projects hover:shadow-2xl mb-3 bg-white">
         <div class="bg-color-container flex justify-center py-10">
         <div class="">
             <ComputerGradient class="md:w-24 md:h-24 image-icon" width="7rem" height="7rem"/>
@@ -28,7 +28,7 @@
 
 
     <!-- Box 2 -->
-    <div class=" lg:max-w-sm lg:block container-projects hover:shadow-2xl mb-3 bg-white">
+    <div class="lg:max-w-sm container-projects hover:shadow-2xl mb-3 bg-white">
         <div class="bg-color-container flex justify-center py-10">
         <div class="">
             <ComputerGradient class="md:w-24 md:h-24 image-icon" width="7rem" height="7rem"/>
@@ -49,7 +49,7 @@
     </div>
 
     <!-- Box 3 -->
-    <div class=" lg:max-w-sm lg:block container-projects hover:shadow-2xl mb-3 bg-white">
+    <div class=" lg:max-w-sm container-projects hover:shadow-2xl mb-3 bg-white">
         <div class="bg-color-container flex justify-center py-10">
         <div class="">
             <ComputerGradient class="md:w-24 md:h-24 image-icon" width="7rem" height="7rem"/>
@@ -85,11 +85,16 @@ export default {
 </script>
 
 <style scoped>
+
+.container-all {
+    justify-items: center
+}
+
 .container-projects {
     @apply text-gray-900 mx-4 ;
     box-shadow: 0 1px 6px 0 rgba(32, 33, 36, .28);
     border-radius: 21px;
-    min-width: 20rem;
+    min-width: 19rem;
 }
 
 .bg-color {
