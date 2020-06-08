@@ -8,7 +8,7 @@
                 <div class="p-5">
                     <h4 class="font-semibold text-2xl mb-3">How to work with Vue Binding</h4>
                     <p class="text-tiny text-gray-700">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ea ex nam rerum laborum blanditiis, dolorum ut.
+                        blanditiis, dolorum ut.
                     </p>
                     <div class="flex items-center mt-4">
                         <div class="w-8 h-8 bg-gray-400 rounded-full mr-2 "></div>
