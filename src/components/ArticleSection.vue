@@ -6,15 +6,15 @@
 
             <div class=" bg-white shadow-custom md:mx-3 md:w-2/4 rounded-lg my-6 md:mt-0">
                 <div class="p-5">
-                    <h4 class="font-semibold text-2xl mb-3">How to work with Vue Binding</h4>
-                    <p class="text-tiny text-gray-700">
-                        blanditiis, dolorum ut.
+                    <h4 class="article-title text-tiny">How to work with Vue Binding</h4>
+                    <p class="text-gray-700">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ea ex nam rerum laborum blanditiis, dolorum ut. Labore esse odit tempore rem eveniet.
                     </p>
                     <div class="flex items-center mt-4">
                         <div class="w-8 h-8 bg-gray-400 rounded-full mr-2 "></div>
-                        <p class="text-gray-500">Victor Machado</p>
-                        <span class="mx-2 text-gray-500 ">|</span>
-                        <div class="text-gray-500 text-sm">25 MAY 2020</div>
+                        <p class="grey-color">Victor Machado</p>
+                        <span class="mx-2 grey-color">|</span>
+                        <div class="text-sm grey-color">25 MAY 2020</div>
                     </div>
                 </div>
             </div> 
@@ -32,3 +32,20 @@
 
     </section>
 </template>
+
+<script>
+export default {
+    
+}
+</script>
+
+<style scoped>
+.article-title {
+    @apply font-semibold text-2xl mb-3;
+    color: #4A4A4A;
+}
+
+.grey-color {
+    color: #9EABB3;
+}
+</style>
