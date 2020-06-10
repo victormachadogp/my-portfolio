@@ -6,7 +6,7 @@
 
             <div class=" bg-white shadow-custom md:mx-3 md:w-2/4 rounded-lg my-6 md:mt-0">
                 <div class="p-5">
-                    <h4 class="article-title text-tiny">How to work with Vue Binding</h4>
+                    <h4 class="article-title">How to work with Vue Binding</h4>
                     <p class="text-gray-700">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ea ex nam rerum laborum blanditiis, dolorum ut. Labore esse odit tempore rem eveniet.
                     </p>
@@ -23,7 +23,7 @@
 
             <div class=" bg-white shadow-custom md:mx-3 md:w-2/4 rounded-lg my-6 md:mt-0">
                 <div class="p-5">
-                    <h4 class="article-title text-tiny">How to work with Vue Binding</h4>
+                    <h4 class="article-title">How to work with Vue Binding</h4>
                     <p class="text-gray-700">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat ea ex nam rerum laborum blanditiis, dolorum ut. Labore esse odit tempore rem eveniet.
                     </p>
