@@ -16,7 +16,7 @@
                         <span class="mx-2 grey-color">|</span>
                         <div class="text-sm grey-color">25 MAY 2020</div>
                     </div>
-                    <div class="w-full bg-gray-400 h-px mt-8"></div>
+                    <div class="w-full bg-gray-400 h-px mt-6"></div>
                 </div>
                 
             </div> 
@@ -33,7 +33,7 @@
                         <span class="mx-2 grey-color">|</span>
                         <div class="text-sm grey-color">25 MAY 2020</div>
                     </div>
-                        <div class="w-full bg-gray-400 h-px mt-8"></div>
+                        <div class="w-full bg-gray-400 h-px mt-6"></div>
                 </div>
             </div> 
 
