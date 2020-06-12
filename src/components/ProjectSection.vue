@@ -103,7 +103,7 @@ export default {
 }
 
 .border-decoration {
-    border-top: 3px solid #00A3FF;;
+    border-top: 3px solid #00A3F;
 
 }
 
