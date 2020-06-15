@@ -1,6 +1,6 @@
 <template>
   <section class="bg-color">
-      <div class="mb-20 mt-16 md:p-6 lg:px-10 pb-20 border-decoration">
+      <div class="mt-16 md:p-6 lg:px-10 pb-20 border-decoration">
     <h2 class="text-3xl pt-8 text-center my-10 md:my-8 mx-6 md:mx-4">Projects</h2>
 
     <div class="flex grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-0 container-all">
