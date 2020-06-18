@@ -1,6 +1,6 @@
 <template>
     <section class="mb-10">
-        <p class="text-4xl font-semibold mb-4 md:m-12 text-center mx-5">Articles</p>
+        <p class="text-3xl font-semibold mb-4 md:m-12 text-center mx-5">Articles</p>
         <div class="flex flex-col items-center md:ml-4">
 
 
@@ -50,7 +50,7 @@ export default {
 
 <style scoped>
 .article-title {
-    @apply font-semibold text-3xl mb-3;
+    @apply font-semibold text-2xl mb-3;
     color: #4A4A4A;
 }
 
