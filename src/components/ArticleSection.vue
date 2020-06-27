@@ -10,7 +10,7 @@
             <div class="w-8 h-8 bg-gray-400 rounded-full mr-2"></div>
             <p class="grey-color">Victor Machado</p>
             <span class="mx-2 grey-color">|</span>
-            <div class="text-sm grey-color">25 MAY 2020</div>
+            <div class="text-sm grey-color">25 JUNE 2020</div>
           </div>
           <div class="w-full bg-gray-400 h-px mt-6"></div>
         </div>
