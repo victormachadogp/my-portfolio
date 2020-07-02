@@ -4,9 +4,11 @@
       <div class="flex justify-center">
         <div class="flex bg-gray-400 text-lg rounded-full">
           <p
-            class="px-3 py-1 border-r border-gray-500 hover:bg-gray-600 hover:border-gray-600 hover:text-gray-900 rounded-l-full"
+            class="px-3 py-1 border-r border-gray-500 hover:bg-gray-600 hover:border-gray-600 rounded-l-full"
           >Projects</p>
-          <p class="px-3 py-1 border-r border-gray-500">Articles</p>
+          <p
+            class="px-3 py-1 border-r border-gray-500 hover:bg-gray-600 hover:border-gray-600 hover:text-gray-900"
+          >Articles</p>
           <p class="px-3 py-1">Designs</p>
         </div>
       </div>
