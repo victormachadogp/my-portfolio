@@ -7,11 +7,9 @@
             class="px-3 py-1 border-r border-gray-500 hover:bg-gray-600 hover:border-gray-600 rounded-l-full"
           >Projects</p>
           <p
-            class="px-3 py-1 border-r border-gray-500 hover:bg-gray-600 hover:border-gray-600 hover:text-gray-900"
+            class="px-3 py-1 border-r border-gray-500 hover:bg-gray-600 hover:border-gray-600"
           >Articles</p>
-          <p
-            class="px-3 py-1 hover:bg-gray-600 hover:border-gray-600 hover:text-gray-900 rounded-r-full"
-          >Designs</p>
+          <p class="px-3 py-1 hover:bg-gray-600 hover:border-gray-600 rounded-r-full">Designs</p>
         </div>
       </div>
       <h2 class="text-3xl pt-8 text-center my-10 md:my-6 mx-6 md:mx-4">Projects</h2>
