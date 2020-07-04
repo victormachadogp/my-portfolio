@@ -12,7 +12,7 @@
           <p class="px-3 py-1 hover:bg-gray-600 hover:border-gray-600 rounded-r-full">Designs</p>
         </div>
       </div>
-      <h2 class="text-3xl pt-2 md:pt-8 text-center my-10 md:my-6 mx-6 md:mx-4">Projects</h2>
+      <h2 class="text-3xl pt-2 md:pt-6 text-center my-10 md:my-6 mx-6 md:mx-4">Projects</h2>
 
       <div class="flex grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-0 container-all">
         <!-- Box 1 -->
