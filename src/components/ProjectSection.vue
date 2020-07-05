@@ -14,7 +14,7 @@
       </div>
       <h2 class="text-3xl pt-2 md:pt-6 text-center my-10 md:my-6 mx-6 md:mx-4">Projects</h2>
 
-      <div class="flex grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-0 container-all">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-0 container-all">
         <!-- Box 1 -->
         <div class="flex-col lg:max-w-sm container-projects hover:shadow-2xl mb-3 bg-white">
           <div class="bg-color-container flex justify-center py-10">
