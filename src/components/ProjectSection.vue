@@ -1,7 +1,7 @@
 <template>
   <section class="bg-color">
     <div class="mt-16 md:p-6 lg:px-10 pb-20 mb-12 border-decoration">
-      <div class="flex justify-center mt-12 md:mt-4">
+      <div class="flex justify-center mt-12 md:mt-2">
         <div class="flex bg-gray-300 text-lg rounded-full">
           <p
             class="px-3 py-1 border-r border-gray-500 hover:bg-gray-600 hover:border-gray-600 rounded-l-full"
