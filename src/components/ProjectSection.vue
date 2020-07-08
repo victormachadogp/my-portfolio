@@ -78,8 +78,8 @@
           </div>
         </div>
       </div>
-      <div class="border flex justify-center">
-        <span class="bg-blue-500 text-lg">View All Github Projects</span>
+      <div class="flex justify-center my-5">
+        <span class="rounded-full p-3 px-5 color text-white text-xl">View All Github Projects</span>
       </div>
     </div>
   </section>
@@ -129,5 +129,9 @@ export default {
     width: 7rem;
     height: 7rem;
   }
+}
+
+.color {
+  background-color: #00a3ff;
 }
 </style>
