@@ -78,6 +78,9 @@
           </div>
         </div>
       </div>
+      <div class="border flex justify-center">
+        <span class="bg-blue-500 text-lg">View All Github Projects</span>
+      </div>
     </div>
   </section>
 </template>
