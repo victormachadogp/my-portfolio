@@ -1,6 +1,6 @@
 <template>
   <section class="bg-color">
-    <div class="mt-12 md:p-6 lg:px-10 pb-20 mb-12 border-decoration">
+    <div class="mt-12 md:p-6 lg:px-10 pb-12 md:pb-20 mb-12 border-decoration">
       <h2 class="text-3xl pt-2 md:pt-6 text-center my-10 md:my-6 mx-6 md:mx-4">Projects</h2>
 
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-0 container-all">
@@ -78,8 +78,8 @@
 import ComputerGradient from "@/components/svg/ComputerGradient.vue";
 export default {
   components: {
-    ComputerGradient
-  }
+    ComputerGradient,
+  },
 };
 </script>
 
