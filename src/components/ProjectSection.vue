@@ -6,13 +6,16 @@
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-0 container-all">
         <!-- Box 1 -->
         <div class="flex-col lg:max-w-sm container-projects hover:shadow-2xl mb-3 bg-white">
-          <div class="bg-color-container flex justify-center py-10">
-            <div class>
-              <ComputerGradient class="md:w-24 md:h-24 image-icon" width="7rem" height="7rem" />
+          <div class="bg-color-container flex justify-center">
+            <div class="relative">
+              <img class="border-radius" src="../assets/thekesh.jpg" />
+              <div>
+                <img class="absolute top-0" src="../assets/corner.svg" />
+              </div>
             </div>
           </div>
           <div class="text-center pt-6 px-6">
-            <h3 class="text-xl font-bold">How Vue Bind Really Works?</h3>
+            <h3 class="text-xl font-bold">The Kesh</h3>
             <p
               class="text-gray-600 py-3"
             >Vue binding is one of the most used directives that you’ll use while working with vue, and here you will learn what you can and can’t do with it</p>
@@ -110,6 +113,10 @@ export default {
 
 .bg-color-container {
   background-color: #3bf6a3;
+  border-radius: 21px 21px 0 0;
+}
+
+.border-radius {
   border-radius: 21px 21px 0 0;
 }
 
