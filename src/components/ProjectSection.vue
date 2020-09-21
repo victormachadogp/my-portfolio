@@ -29,14 +29,21 @@
         </div>
 
         <!-- Box 2 -->
-        <div class="lg:max-w-sm container-projects hover:shadow-2xl mb-3 bg-white">
-          <div class="bg-color-container flex justify-center py-10">
-            <div class>
-              <ComputerGradient class="md:w-24 md:h-24 image-icon" width="7rem" height="7rem" />
+
+        <a
+          href="https://hikmalanguages.com/"
+          class="lg:max-w-sm container-projects hover:shadow-2xl mb-3 bg-white"
+        >
+          <div class="bg-color-container flex justify-center">
+            <div class="relative">
+              <img class="border-radius" src="../assets/hikma.jpg" />
+              <div>
+                <img class="absolute top-0" src="../assets/corner.svg" />
+              </div>
             </div>
           </div>
           <div class="text-center pt-6 px-6">
-            <h3 class="text-xl font-bold">How Vue Bind Really Works?</h3>
+            <h3 class="text-xl font-bold">Hikma Languages</h3>
             <p
               class="text-gray-600 py-3"
             >Vue binding is one of the most used directives that you’ll use while working with vue, and here you will learn what you can and can’t do with it</p>
@@ -47,7 +54,7 @@
             <p class="word-filter inline-block px-3 rounded mr-3 cursor-pointer">Nuxt</p>
             <p class="word-filter inline-block px-3 rounded cursor-pointer">Tailwind</p>
           </div>
-        </div>
+        </a>
 
         <!-- Box 3 -->
         <div class="lg:max-w-sm container-projects hover:shadow-2xl mb-3 bg-white">
