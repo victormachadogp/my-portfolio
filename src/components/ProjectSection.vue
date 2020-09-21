@@ -78,7 +78,7 @@
         </div>
       </div>
       <div class="flex justify-center my-5">
-        <span class="rounded-full p-3 px-5 color text-white text-xl">View All Github Projects</span>
+        <span class="rounded-full p-3 px-5 color text-white text-md">View All Github Projects</span>
       </div>
     </div>
   </section>
