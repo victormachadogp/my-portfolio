@@ -1,11 +1,17 @@
 <template>
   <section class="bg-color">
-    <div class="mt-12 md:p-6 lg:px-10 pb-12 md:pb-20 mb-12 border-decoration">
-      <h2 class="text-3xl pt-2 md:pt-6 text-center my-10 md:my-6 mx-6 md:mx-4">Projects</h2>
+    <div class="mt-12 md:p-6 lg:px-10 pb-12 md:pb-6 mb-12 border-decoration">
+      <h2 class="text-3xl pt-2 md:pt-6 text-center my-10 md:my-6 mx-6 md:mx-4">
+        Projects
+      </h2>
 
-      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-0 container-all">
+      <div
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-0 container-all"
+      >
         <!-- Box 1 -->
-        <div class="flex-col lg:max-w-sm container-projects hover:shadow-2xl mb-3 bg-white">
+        <div
+          class="flex-col lg:max-w-sm container-projects hover:shadow-2xl mb-3 bg-white"
+        >
           <div class="bg-color-container flex justify-center">
             <div class="relative">
               <img class="border-radius" src="../assets/thekesh.jpg" />
@@ -16,15 +22,27 @@
           </div>
           <div class="text-center pt-6 px-6">
             <h3 class="text-xl font-bold">The Kesh</h3>
-            <p
-              class="text-gray-600 py-3"
-            >Vue binding is one of the most used directives that you’ll use while working with vue, and here you will learn what you can and can’t do with it</p>
+            <p class="text-gray-600 py-3">
+              Vue binding is one of the most used directives that you’ll use
+              while working with vue, and here you will learn what you can and
+              can’t do with it
+            </p>
           </div>
 
           <div class="my-6 px-6">
-            <p class="word-filter inline-block px-3 rounded mr-3 cursor-pointer">Vue</p>
-            <p class="word-filter inline-block px-3 rounded mr-3 cursor-pointer">Nuxt</p>
-            <p class="word-filter inline-block px-3 rounded cursor-pointer">Tailwind</p>
+            <p
+              class="word-filter inline-block px-3 rounded mr-3 cursor-pointer"
+            >
+              Vue
+            </p>
+            <p
+              class="word-filter inline-block px-3 rounded mr-3 cursor-pointer"
+            >
+              Nuxt
+            </p>
+            <p class="word-filter inline-block px-3 rounded cursor-pointer">
+              Tailwind
+            </p>
           </div>
         </div>
 
@@ -44,41 +62,75 @@
           </div>
           <div class="text-center pt-6 px-6">
             <h3 class="text-xl font-bold">Hikma Languages</h3>
-            <p
-              class="text-gray-600 py-3"
-            >Vue binding is one of the most used directives that you’ll use while working with vue, and here you will learn what you can and can’t do with it</p>
+            <p class="text-gray-600 py-3">
+              Vue binding is one of the most used directives that you’ll use
+              while working with vue, and here you will learn what you can and
+              can’t do with it
+            </p>
           </div>
 
           <div class="my-6 px-6">
-            <p class="word-filter inline-block px-3 rounded mr-3 cursor-pointer">Vue</p>
-            <p class="word-filter inline-block px-3 rounded mr-3 cursor-pointer">Nuxt</p>
-            <p class="word-filter inline-block px-3 rounded cursor-pointer">Tailwind</p>
+            <p
+              class="word-filter inline-block px-3 rounded mr-3 cursor-pointer"
+            >
+              Vue
+            </p>
+            <p
+              class="word-filter inline-block px-3 rounded mr-3 cursor-pointer"
+            >
+              Nuxt
+            </p>
+            <p class="word-filter inline-block px-3 rounded cursor-pointer">
+              Tailwind
+            </p>
           </div>
         </a>
 
         <!-- Box 3 -->
-        <div class="lg:max-w-sm container-projects hover:shadow-2xl mb-3 bg-white">
+        <div
+          class="lg:max-w-sm container-projects hover:shadow-2xl mb-3 bg-white"
+        >
           <div class="bg-color-container flex justify-center py-10">
             <div class>
-              <ComputerGradient class="md:w-24 md:h-24 image-icon" width="7rem" height="7rem" />
+              <ComputerGradient
+                class="md:w-24 md:h-24 image-icon"
+                width="7rem"
+                height="7rem"
+              />
             </div>
           </div>
           <div class="text-center pt-6 px-6">
             <h3 class="text-xl font-bold">How Vue Bind Really Works?</h3>
-            <p
-              class="text-gray-600 py-3"
-            >Vue binding is one of the most used directives that you’ll use while working with vue, and here you will learn what you can and can’t do with it</p>
+            <p class="text-gray-600 py-3">
+              Vue binding is one of the most used directives that you’ll use
+              while working with vue, and here you will learn what you can and
+              can’t do with it
+            </p>
           </div>
 
           <div class="my-6 px-6">
-            <p class="word-filter inline-block px-3 rounded mr-3 cursor-pointer">Vue</p>
-            <p class="word-filter inline-block px-3 rounded mr-3 cursor-pointer">Nuxt</p>
-            <p class="word-filter inline-block px-3 rounded cursor-pointer">Tailwind</p>
+            <p
+              class="word-filter inline-block px-3 rounded mr-3 cursor-pointer"
+            >
+              Vue
+            </p>
+            <p
+              class="word-filter inline-block px-3 rounded mr-3 cursor-pointer"
+            >
+              Nuxt
+            </p>
+            <p class="word-filter inline-block px-3 rounded cursor-pointer">
+              Tailwind
+            </p>
           </div>
         </div>
       </div>
       <div class="flex justify-center my-5">
-        <span class="rounded-full p-3 px-5 color text-white text-md">View All Github Projects</span>
+        <a
+          href="https://github.com/victormachadogp"
+          class="rounded-full p-3 px-5 color text-white text-md"
+          >View All Github Projects</a
+        >
       </div>
     </div>
   </section>
