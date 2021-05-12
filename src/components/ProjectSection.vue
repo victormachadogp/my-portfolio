@@ -1,6 +1,6 @@
 <template>
-  <section class="bg-color">
-    <div class="mt-12 md:p-6 lg:px-10 pb-12 md:pb-6 mb-12 border-decoration">
+  <section class="bg-color expanded-width border-decoration ">
+    <div class="mt-5 md:p-6 lg:px-10 max-w-6xl mx-auto pb-12 md:pb-6 mb-12">
       <h2 class="text-3xl pt-2 md:pt-6 text-center my-10 md:my-6 mx-6 md:mx-4">
         Projects
       </h2>

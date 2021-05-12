@@ -1,5 +1,5 @@
 <template>
-  <div id="app">
+  <div id="app" class=" overflow-hidden">
     <section class="container max-w-6xl mx-auto">
       <NavBar />
       <AboutMe />
@@ -32,5 +32,14 @@ export default {
 <style>
 #app {
   font-family: Roboto, Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 1152px) {
+  .expanded-width {
+    width: 100vw;
+    position: relative;
+    margin-left: -50vw;
+    left: 50%;
+  }
 }
 </style>
