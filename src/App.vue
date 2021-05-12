@@ -1,10 +1,12 @@
 <template>
   <div id="app">
-    <NavBar />
-    <AboutMe />
-    <ProjectSection />
-    <ArticleSection />
-    <Footer />
+    <section class="container max-w-6xl mx-auto">
+      <NavBar />
+      <AboutMe />
+      <ProjectSection />
+      <ArticleSection />
+      <Footer />
+    </section>
   </div>
 </template>
 
