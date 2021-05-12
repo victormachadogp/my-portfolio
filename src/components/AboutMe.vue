@@ -6,8 +6,10 @@
       <div class="line-decoration"></div>
     </div>
 
-    <p class="mt-8 md:text-center text-lg mb-16">
-      I’m a Front-End Developer based in São Paulo - BR. Currently focusing in
+    <p class="mt-8 md:text-center text-lg mb-16 max-w-xl mx-auto">
+      I’m a Front-End Developer with a degree in
+      <span class="font-bold">Graph Design.</span> Besides coding I'm a big fan
+      of art related stuff. Based in São Paulo - BR. Currently focusing in
       <span class="font-bold">Javascript</span> and
       <span class="font-bold">Vue</span>
     </p>
