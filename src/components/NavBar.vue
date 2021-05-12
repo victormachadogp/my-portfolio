@@ -1,30 +1,35 @@
 <template>
   <section class="relative overflow-x-hidden">
-    <SvgHeaderOne class="test"/>
-    <SvgHeaderTwo class="testTwo"/>
+    <SvgHeaderOne class="width-fix" />
+    <SvgHeaderTwo class="mobile-width-fix" />
     <div class="max-w-6xl mx-auto nav px-3 md:px-4">
-      <div class="flex flex-col md:flex-row justify-between items-center bg-white p-6 md:p-8 lg:p-10 rounded-lg container-border ">
+      <div
+        class="flex flex-col md:flex-row justify-between items-center bg-white p-6 md:p-8 lg:p-10 rounded-lg container-border "
+      >
         <div class="flex items-center">
-          <h2 class="text-3xl md:text-2xl lg:text-3xl font-semibold mb-3 md:mb-0">Victor Machado</h2>
+          <h2
+            class="text-3xl md:text-2xl lg:text-3xl font-semibold mb-3 md:mb-0"
+          >
+            Victor Machado
+          </h2>
           <div class="ball-decoration mx-4 hidden md:block"></div>
         </div>
         <div class="flex items-center justify-center">
-          <p class="text-lg ml-2 md:text-xl lg:text-2xl text-gray-700 mb-3 md:mb-0 text-center">Front-End Developer</p>
+          <p
+            class="text-lg ml-2 md:text-xl lg:text-2xl text-gray-700 mb-3 md:mb-0 text-center"
+          >
+            Front-End Developer
+          </p>
         </div>
-        <div class="flex mt-3 md:mt-0 flex items-center">
+        <div class="flex mt-3 md:mt-0 items-center">
           <div class="ball-decoration mx-4 hidden md:block"></div>
           <GithubIcon class="social-icon" />
-          <LinkedinIcon class="social-icon"/>
-          <TwitterIcon class="social-icon"/>
-          <EmailIcon class="social-icon"/>
+          <LinkedinIcon class="social-icon" />
+          <TwitterIcon class="social-icon" />
+          <EmailIcon class="social-icon" />
         </div>
-
       </div>
-
-
-
     </div>
-   
   </section>
 </template>
 
@@ -42,28 +47,28 @@ export default {
     GithubIcon,
     LinkedinIcon,
     EmailIcon,
-    TwitterIcon
-  }
+    TwitterIcon,
+  },
 };
 </script>
 
 <style scoped>
 .social-icon {
-    width: 39px;
-    height: 39px;
-    margin-left: 0.8rem;
-    margin-right: 0.8rem;
-    cursor: pointer;
+  width: 39px;
+  height: 39px;
+  margin-left: 0.8rem;
+  margin-right: 0.8rem;
+  cursor: pointer;
 }
 
-@media (min-width: 768px) and (max-width: 1024px){
+@media (min-width: 768px) and (max-width: 1024px) {
   .social-icon {
     width: 35px;
     height: 35px;
     margin-left: 0.5rem;
     margin-right: 0.5rem;
     cursor: pointer;
-}
+  }
 }
 
 .nav {
