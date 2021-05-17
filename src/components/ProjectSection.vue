@@ -15,9 +15,6 @@
           <div class="bg-color-container flex justify-center">
             <div class="relative">
               <img class="border-radius" src="../assets/thekesh.jpg" />
-              <div>
-                <img class="absolute top-0" src="../assets/corner.svg" />
-              </div>
             </div>
           </div>
           <div class="text-center pt-6 px-6">
@@ -55,9 +52,6 @@
           <div class="bg-color-container flex justify-center">
             <div class="relative">
               <img class="border-radius" src="../assets/hikma.png" />
-              <div>
-                <img class="absolute top-0" src="../assets/corner.svg" />
-              </div>
             </div>
           </div>
           <div class="text-center pt-6 px-6">
