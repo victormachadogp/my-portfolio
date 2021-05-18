@@ -93,8 +93,9 @@
           <div class="pt-6 px-6">
             <h3 class="text-center text-xl font-bold">Stepping Stones Ed</h3>
             <p class="text-gray-600 py-3">
-              Developed for a UK based magazine using Nuxt.js and Tailwind CSS.
-              Stepping Stones Ed is a website to promote an childrens workbook.
+              Developed for a UK based personal branding using Nuxt.js and
+              Tailwind CSS. Stepping Stones Ed is a website to promote an
+              childrens workbook.
             </p>
           </div>
 
