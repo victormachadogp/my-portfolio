@@ -82,7 +82,7 @@
 
         <!-- Box 3 -->
         <a
-          href="https://hikmalanguages.com/"
+          href="https://steppingstonesed.co.uk/"
           class="lg:max-w-sm container-projects hover:shadow-2xl mb-3 bg-white"
         >
           <div class="bg-color-container flex justify-center">
@@ -90,12 +90,11 @@
               <img class="border-radius" src="../assets/sse.png" />
             </div>
           </div>
-          <div class="text-center pt-6 px-6">
-            <h3 class="text-xl font-bold">Stepping Stones Ed</h3>
+          <div class="pt-6 px-6">
+            <h3 class="text-center text-xl font-bold">Stepping Stones Ed</h3>
             <p class="text-gray-600 py-3">
-              Vue binding is one of the most used directives that you’ll use
-              while working with vue, and here you will learn what you can and
-              can’t do with it
+              Developed for a UK based magazine using Nuxt.js and Tailwind CSS.
+              Stepping Stones Ed is a website to promote an childrens workbook.
             </p>
           </div>
 
