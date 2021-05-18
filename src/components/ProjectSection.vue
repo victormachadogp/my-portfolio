@@ -54,12 +54,12 @@
               <img class="border-radius" src="../assets/hikma.png" />
             </div>
           </div>
-          <div class="text-center pt-6 px-6">
-            <h3 class="text-xl font-bold">Hikma Languages</h3>
+          <div class=" pt-6 px-6">
+            <h3 class="text-center text-xl font-bold">Hikma Languages</h3>
             <p class="text-gray-600 py-3">
-              Vue binding is one of the most used directives that you’ll use
-              while working with vue, and here you will learn what you can and
-              can’t do with it
+              Developed for a US based company using Nuxt.js and Tailwind CSS.
+              Hikma is multi-language website used to promote the learning of
+              new languages.
             </p>
           </div>
 
