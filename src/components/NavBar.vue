@@ -1,7 +1,7 @@
 <template>
-  <section class="relative overflow-x-hidden">
+  <section class="relative overflow-x-hidden expanded-width ">
     <SvgHeaderOne class="width-fix" />
-    <SvgHeaderTwo class="mobile-width-fix" />
+    <SvgHeaderTwo class="mobile-width-fix " />
     <div class="max-w-6xl mx-auto nav px-3 md:px-4">
       <div
         class="flex flex-col md:flex-row justify-between items-center bg-white p-6 md:p-8 lg:p-10 rounded-lg container-border "

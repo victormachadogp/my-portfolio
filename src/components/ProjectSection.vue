@@ -1,6 +1,6 @@
 <template>
-  <section class="bg-color">
-    <div class="mt-12 md:p-6 lg:px-10 pb-12 md:pb-6 mb-12 border-decoration">
+  <section class="bg-color expanded-width border-decoration ">
+    <div class="mt-5 md:p-6 lg:px-10 max-w-6xl mx-auto pb-12 md:pb-6 mb-12">
       <h2 class="text-3xl pt-2 md:pt-6 text-center my-10 md:my-6 mx-6 md:mx-4">
         Projects
       </h2>
@@ -14,10 +14,7 @@
         >
           <div class="bg-color-container flex justify-center">
             <div class="relative">
-              <img class="border-radius" src="../assets/thekesh.jpg" />
-              <div>
-                <img class="absolute top-0" src="../assets/corner.svg" />
-              </div>
+              <img class="border-radius" src="../assets/todo-rest.png" />
             </div>
           </div>
           <div class="text-center pt-6 px-6">
@@ -54,18 +51,15 @@
         >
           <div class="bg-color-container flex justify-center">
             <div class="relative">
-              <img class="border-radius" src="../assets/hikma.jpg" />
-              <div>
-                <img class="absolute top-0" src="../assets/corner.svg" />
-              </div>
+              <img class="border-radius" src="../assets/hikma.png" />
             </div>
           </div>
-          <div class="text-center pt-6 px-6">
-            <h3 class="text-xl font-bold">Hikma Languages</h3>
+          <div class=" pt-6 px-6">
+            <h3 class="text-center text-xl font-bold">Hikma Languages</h3>
             <p class="text-gray-600 py-3">
-              Vue binding is one of the most used directives that you’ll use
-              while working with vue, and here you will learn what you can and
-              can’t do with it
+              Developed for a US based company using Nuxt.js and Tailwind CSS.
+              Hikma is multi-language website used to promote the learning of
+              new languages.
             </p>
           </div>
 
@@ -87,24 +81,22 @@
         </a>
 
         <!-- Box 3 -->
-        <div
+        <a
+          href="https://steppingstonesed.co.uk/"
           class="lg:max-w-sm container-projects hover:shadow-2xl mb-3 bg-white"
         >
-          <div class="bg-color-container flex justify-center py-10">
-            <div class>
-              <ComputerGradient
-                class="md:w-24 md:h-24 image-icon"
-                width="7rem"
-                height="7rem"
-              />
+          <div class="bg-color-container flex justify-center">
+            <div class="relative">
+              <img class="border-radius" src="../assets/sse.png" />
             </div>
+            ''
           </div>
-          <div class="text-center pt-6 px-6">
-            <h3 class="text-xl font-bold">How Vue Bind Really Works?</h3>
+          <div class="pt-6 px-6">
+            <h3 class="text-center text-xl font-bold">Stepping Stones Ed</h3>
             <p class="text-gray-600 py-3">
-              Vue binding is one of the most used directives that you’ll use
-              while working with vue, and here you will learn what you can and
-              can’t do with it
+              Developed for a UK based personal branding using Nuxt.js and
+              Tailwind CSS. Stepping Stones Ed is a website to promote an
+              childrens workbook.
             </p>
           </div>
 
@@ -123,7 +115,7 @@
               Tailwind
             </p>
           </div>
-        </div>
+        </a>
       </div>
       <div class="flex justify-center my-5">
         <a
@@ -137,12 +129,7 @@
 </template>
 
 <script>
-import ComputerGradient from "@/components/svg/ComputerGradient.vue";
-export default {
-  components: {
-    ComputerGradient,
-  },
-};
+export default {};
 </script>
 
 <style scoped>
