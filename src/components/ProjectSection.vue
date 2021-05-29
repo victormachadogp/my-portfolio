@@ -18,7 +18,7 @@
             </div>
           </div>
           <div class="text-center pt-6 px-6">
-            <h3 class="text-xl font-bold">The Kesh</h3>
+            <h3 class="text-xl font-bold">Todo - REST API</h3>
             <p class="text-gray-600 py-3">
               Vue binding is one of the most used directives that you’ll use
               while working with vue, and here you will learn what you can and
@@ -89,7 +89,6 @@
             <div class="relative">
               <img class="border-radius" src="../assets/sse.png" />
             </div>
-            ''
           </div>
           <div class="pt-6 px-6">
             <h3 class="text-center text-xl font-bold">Stepping Stones Ed</h3>
@@ -158,7 +157,7 @@ export default {};
 }
 
 .bg-color-container {
-  background-color: #3bf6a3;
+  background-color: #0177ff;
   border-radius: 21px 21px 0 0;
 }
 
