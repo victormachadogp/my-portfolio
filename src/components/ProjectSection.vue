@@ -14,7 +14,7 @@
         >
           <div class="bg-color-container flex justify-center">
             <div class="relative">
-              <img class="border-radius" src="../assets/thekesh.jpg" />
+              <img class="border-radius" src="../assets/todo-rest.png" />
             </div>
           </div>
           <div class="text-center pt-6 px-6">
@@ -89,6 +89,7 @@
             <div class="relative">
               <img class="border-radius" src="../assets/sse.png" />
             </div>
+            ''
           </div>
           <div class="pt-6 px-6">
             <h3 class="text-center text-xl font-bold">Stepping Stones Ed</h3>
