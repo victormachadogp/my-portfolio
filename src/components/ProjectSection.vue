@@ -147,7 +147,7 @@ export default {
         {
           title: "Todo - REST API",
           paragraph:
-            "It is a Todo List developed using Vue and Tailwind CSS, I used json-server as a fake api handle the data.",
+            "It is a Todo List developed using Vue and Tailwind CSS, I used json-server as a fake api to handle the data.",
           imagePath: require("../assets/todo-rest.png"),
         },
         { title: "Ken", paragraph: "Some paragraph" },
