@@ -9,7 +9,7 @@
         class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-0 container-all"
       >
         <!-- Box 1 -->
-        <div
+        <!-- <div
           class="flex-col lg:max-w-sm container-projects hover:shadow-2xl mb-3 bg-white"
         >
           <div class="bg-color-container flex justify-center">
@@ -40,7 +40,16 @@
               Tailwind
             </p>
           </div>
-        </div>
+        </div> -->
+
+        <ProjectCard
+          href="https://amazing-brown-915705.netlify.app/"
+          target="_blank"
+          :image-url="projectDescription[0].imagePath"
+          :title-text="projectDescription[0].title"
+          :paragraph="projectDescription[0].paragraph"
+        >
+        </ProjectCard>
 
         <!-- Box 2 -->
 
@@ -127,7 +136,26 @@
 </template>
 
 <script>
-export default {};
+import ProjectCard from "@/components/ProjectCard.vue";
+export default {
+  components: {
+    ProjectCard,
+  },
+  data() {
+    return {
+      projectDescription: [
+        {
+          title: "Todo - REST API",
+          paragraph:
+            "It is a Todo List developed using Vue and Tailwind CSS, I used json-server as a fake api handle the data.",
+          imagePath: require("../assets/todo-rest.png"),
+        },
+        { title: "Ken", paragraph: "Some paragraph" },
+      ],
+      // projectDescription: "Something here",
+    };
+  },
+};
 </script>
 
 <style scoped>
