@@ -20,9 +20,8 @@
           <div class="text-center pt-6 px-6">
             <h3 class="text-xl font-bold">Todo - REST API</h3>
             <p class="text-gray-600 py-3">
-              Vue binding is one of the most used directives that you’ll use
-              while working with vue, and here you will learn what you can and
-              can’t do with it
+              It is a Todo List developed using Vue and Tailwind CSS, I used
+              json-server as a fake api handle the data.
             </p>
           </div>
 
