@@ -9,7 +9,7 @@
         class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-0 container-all"
       >
         <!-- Box 1 -->
-        <div
+        <!-- <div
           class="flex-col lg:max-w-sm container-projects hover:shadow-2xl mb-3 bg-white"
         >
           <div class="bg-color-container flex justify-center">
@@ -18,11 +18,10 @@
             </div>
           </div>
           <div class="text-center pt-6 px-6">
-            <h3 class="text-xl font-bold">The Kesh</h3>
+            <h3 class="text-xl font-bold">Todo - REST API</h3>
             <p class="text-gray-600 py-3">
-              Vue binding is one of the most used directives that you’ll use
-              while working with vue, and here you will learn what you can and
-              can’t do with it
+              It is a Todo List developed using Vue and Tailwind CSS, I used
+              json-server as a fake api handle the data.
             </p>
           </div>
 
@@ -41,7 +40,16 @@
               Tailwind
             </p>
           </div>
-        </div>
+        </div> -->
+
+        <ProjectCard
+          href="https://amazing-brown-915705.netlify.app/"
+          target="_blank"
+          :image-url="projectDescription[0].imagePath"
+          :title-text="projectDescription[0].title"
+          :paragraph="projectDescription[0].paragraph"
+        >
+        </ProjectCard>
 
         <!-- Box 2 -->
 
@@ -89,7 +97,6 @@
             <div class="relative">
               <img class="border-radius" src="../assets/sse.png" />
             </div>
-            ''
           </div>
           <div class="pt-6 px-6">
             <h3 class="text-center text-xl font-bold">Stepping Stones Ed</h3>
@@ -129,7 +136,26 @@
 </template>
 
 <script>
-export default {};
+import ProjectCard from "@/components/ProjectCard.vue";
+export default {
+  components: {
+    ProjectCard,
+  },
+  data() {
+    return {
+      projectDescription: [
+        {
+          title: "Todo - REST API",
+          paragraph:
+            "Todo List developed using Vue and Tailwind CSS, I used json-server as a fake api to handle the data.",
+          imagePath: require("../assets/todo-rest.png"),
+        },
+        { title: "Ken", paragraph: "Some paragraph" },
+      ],
+      // projectDescription: "Something here",
+    };
+  },
+};
 </script>
 
 <style scoped>
@@ -158,7 +184,7 @@ export default {};
 }
 
 .bg-color-container {
-  background-color: #3bf6a3;
+  background-color: #0177ff;
   border-radius: 21px 21px 0 0;
 }
 
