@@ -1,9 +1,9 @@
 <template>
-  <footer class="bg-color flex justify-between">
-    <h3 class="text-lg px-8 pt-4 pb-2 text-white">
-      Victor Machado
-    </h3>
-    <p class="text-md px-4 pt-4 pb-2 text-white">© 2021</p>
+  <footer class="text-center pb-8">
+    <p class="text-xs text-gray-500 py-1">Coded and Designed by</p>
+    <h3 class="text-2xl text-gray-800">Victor Machado.</h3>
+    <div class="border-b-2 border-gray-400 my-2"></div>
+    <p class="text-xs text-gray-500">Seeking Learning.</p>
   </footer>
 </template>
 
