@@ -1,6 +1,6 @@
 <template>
   <a
-    class="lg:grid grid-container lg:max-w-sm container-projects hover:shadow-2xl mb-3 bg-white"
+    class="lg:grid grid-container max-w-md lg:max-w-sm container-projects hover:shadow-2xl mb-3 bg-white"
   >
     <div class="rounded-t-2xl bg-color-fix flex justify-center lg:h-44 p-4">
       <div class="relative">
