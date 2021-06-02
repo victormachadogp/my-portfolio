@@ -23,10 +23,24 @@
         </div>
         <div class="flex mt-3 md:mt-0 items-center">
           <div class="ball-decoration mx-4 hidden md:block"></div>
-          <GithubIcon class="social-icon" />
-          <LinkedinIcon class="social-icon" />
-          <TwitterIcon class="social-icon" />
-          <EmailIcon class="social-icon" />
+
+          <a href="https://github.com/victormachadogp" target="_blank">
+            <GithubIcon class="social-icon" />
+          </a>
+          <a
+            href="https://www.linkedin.com/in/victormachadogp/"
+            target="_blank"
+          >
+            <LinkedinIcon class="social-icon" />
+          </a>
+
+          <a href="https://twitter.com/victormachadogp" target="_blank">
+            <TwitterIcon class="social-icon" />
+          </a>
+
+          <a href="mailto:victormachadogp@gmail.com">
+            <EmailIcon class="social-icon" />
+          </a>
         </div>
       </div>
     </div>

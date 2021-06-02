@@ -8,121 +8,16 @@
       <div
         class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-0 container-all"
       >
-        <!-- Box 1 -->
-        <!-- <div
-          class="flex-col lg:max-w-sm container-projects hover:shadow-2xl mb-3 bg-white"
-        >
-          <div class="bg-color-container flex justify-center">
-            <div class="relative">
-              <img class="border-radius" src="../assets/todo-rest.png" />
-            </div>
-          </div>
-          <div class="text-center pt-6 px-6">
-            <h3 class="text-xl font-bold">Todo - REST API</h3>
-            <p class="text-gray-600 py-3">
-              It is a Todo List developed using Vue and Tailwind CSS, I used
-              json-server as a fake api handle the data.
-            </p>
-          </div>
-
-          <div class="my-6 px-6">
-            <p
-              class="word-filter inline-block px-3 rounded mr-3 cursor-pointer"
-            >
-              Vue
-            </p>
-            <p
-              class="word-filter inline-block px-3 rounded mr-3 cursor-pointer"
-            >
-              Nuxt
-            </p>
-            <p class="word-filter inline-block px-3 rounded cursor-pointer">
-              Tailwind
-            </p>
-          </div>
-        </div> -->
-
         <ProjectCard
+          v-for="project in projectDescription"
+          :key="project.title"
           href="https://amazing-brown-915705.netlify.app/"
           target="_blank"
-          :image-url="projectDescription[0].imagePath"
-          :title-text="projectDescription[0].title"
-          :paragraph="projectDescription[0].paragraph"
+          :image-url="project.imagePath"
+          :title-text="project.title"
+          :paragraph="project.paragraph"
         >
         </ProjectCard>
-
-        <!-- Box 2 -->
-
-        <a
-          href="https://hikmalanguages.com/"
-          class="lg:max-w-sm container-projects hover:shadow-2xl mb-3 bg-white"
-        >
-          <div class="bg-color-container flex justify-center">
-            <div class="relative">
-              <img class="border-radius" src="../assets/hikma.png" />
-            </div>
-          </div>
-          <div class=" pt-6 px-6">
-            <h3 class="text-center text-xl font-bold">Hikma Languages</h3>
-            <p class="text-gray-600 py-3">
-              Developed for a US based company using Nuxt.js and Tailwind CSS.
-              Hikma is multi-language website used to promote the learning of
-              new languages.
-            </p>
-          </div>
-
-          <div class="my-6 px-6">
-            <p
-              class="word-filter inline-block px-3 rounded mr-3 cursor-pointer"
-            >
-              Vue
-            </p>
-            <p
-              class="word-filter inline-block px-3 rounded mr-3 cursor-pointer"
-            >
-              Nuxt
-            </p>
-            <p class="word-filter inline-block px-3 rounded cursor-pointer">
-              Tailwind
-            </p>
-          </div>
-        </a>
-
-        <!-- Box 3 -->
-        <a
-          href="https://steppingstonesed.co.uk/"
-          class="lg:max-w-sm container-projects hover:shadow-2xl mb-3 bg-white"
-        >
-          <div class="bg-color-container flex justify-center">
-            <div class="relative">
-              <img class="border-radius" src="../assets/sse.png" />
-            </div>
-          </div>
-          <div class="pt-6 px-6">
-            <h3 class="text-center text-xl font-bold">Stepping Stones Ed</h3>
-            <p class="text-gray-600 py-3">
-              Developed for a UK based personal branding using Nuxt.js and
-              Tailwind CSS. Stepping Stones Ed is a website to promote an
-              childrens workbook.
-            </p>
-          </div>
-
-          <div class="my-6 px-6">
-            <p
-              class="word-filter inline-block px-3 rounded mr-3 cursor-pointer"
-            >
-              Vue
-            </p>
-            <p
-              class="word-filter inline-block px-3 rounded mr-3 cursor-pointer"
-            >
-              Nuxt
-            </p>
-            <p class="word-filter inline-block px-3 rounded cursor-pointer">
-              Tailwind
-            </p>
-          </div>
-        </a>
       </div>
       <div class="flex justify-center my-5">
         <a
@@ -150,7 +45,18 @@ export default {
             "Todo List developed using Vue and Tailwind CSS, I used json-server as a fake api to handle the data.",
           imagePath: require("../assets/todo-rest.png"),
         },
-        { title: "Ken", paragraph: "Some paragraph" },
+        {
+          title: "Hikma Languages",
+          paragraph:
+            "Developed for a US based company using Nuxt.js and Tailwind CSS. Hikma is multi-language website used to promote the learning of new languages.",
+          imagePath: require("../assets/hikma.png"),
+        },
+        {
+          title: "Stepping Stones Ed",
+          paragraph:
+            "Developed for a UK based personal branding using Nuxt.js and Tailwind CSS. Stepping Stones Ed is a website to promote an childrens workbook.",
+          imagePath: require("../assets/sse.png"),
+        },
       ],
       // projectDescription: "Something here",
     };
