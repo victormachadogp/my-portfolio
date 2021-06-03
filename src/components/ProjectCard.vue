@@ -14,22 +14,14 @@
       </p>
     </div>
 
-    <div class="mt-6 px-6 pb-5 lg:pb-0 flex items-center">
-      <p
-        class="bg-gray-200 text-gray-600 inline-block px-3 rounded mr-3 cursor-pointer"
+    <div class="mt-6 px-6 pb-5 flex items-end flex-wrap">
+      <span
+        v-for="(tag, index) in tags"
+        :key="index"
+        class="bg-gray-200 text-gray-600 inline-block px-3 mr-2 mt-2.5 text-sm rounded cursor-pointer"
       >
-        Vue
-      </p>
-      <p
-        class="bg-gray-200 text-gray-600 inline-block px-3 rounded mr-3 cursor-pointer"
-      >
-        Nuxt
-      </p>
-      <p
-        class="bg-gray-200 text-gray-600 inline-block px-3 rounded cursor-pointer"
-      >
-        Tailwind
-      </p>
+        {{ tag }}
+      </span>
     </div>
   </a>
 </template>
@@ -46,6 +38,9 @@ export default {
     imageUrl: {
       type: String,
     },
+    tags: {
+      type: Array,
+    },
   },
 };
 </script>
@@ -53,7 +48,7 @@ export default {
 <style scoped>
 @media (min-width: 1024px) {
   .grid-container {
-    grid-template-rows: 11rem auto 100px;
+    grid-template-rows: 11rem auto 120px;
   }
 }
 
