@@ -4,7 +4,6 @@
       <NavBar />
       <AboutMe />
       <ProjectSection />
-      <Banner />
       <Footer />
     </section>
   </div>
@@ -14,7 +13,6 @@
 import NavBar from "./components/NavBar.vue";
 import AboutMe from "./components/AboutMe.vue";
 import ProjectSection from "./components/ProjectSection.vue";
-import Banner from "./components/Banner.vue";
 import Footer from "./components/Footer.vue";
 
 export default {
@@ -23,7 +21,6 @@ export default {
     NavBar,
     AboutMe,
     ProjectSection,
-    Banner,
     Footer,
   },
 };
