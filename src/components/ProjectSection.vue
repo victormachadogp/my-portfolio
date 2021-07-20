@@ -64,7 +64,6 @@ export default {
           projectPath: "https://steppingstonesed.co.uk/",
         },
       ],
-      // projectDescription: "Something here",
     };
   },
 };
