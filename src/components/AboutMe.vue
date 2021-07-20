@@ -10,8 +10,8 @@
       class="mt-8 md:text-center text-lg mb-16 sm:max-w-lg md:max-w-xl md:mx-auto"
     >
       I’m a Front-End Developer with a degree in
-      <span class="font-bold">Graph Design.</span> Besides coding I'm a big fan
-      of art related stuff. Based in São Paulo - BR. Currently focusing in
+      <span class="font-bold">Graphic Design.</span> Besides coding I'm a big
+      fan of art related stuff. Based in São Paulo - BR. Currently focusing on
       <span class="font-bold">Javascript</span> and
       <span class="font-bold">Vue</span>
     </p>
