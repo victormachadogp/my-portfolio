@@ -11,8 +11,7 @@
         <ProjectCard
           v-for="project in projectDescription"
           :key="project.title"
-          href="https://amazing-brown-915705.netlify.app/"
-          target="_blank"
+          :project-link="project.projectPath"
           :image-url="project.imagePath"
           :title-text="project.title"
           :paragraph="project.paragraph"
@@ -46,13 +45,15 @@ export default {
             "Todo List developed using Vue and Tailwind CSS, I used json-server as a fake api to handle the data.",
           imagePath: require("../assets/todo-rest.png"),
           tags: ["Vue", "Tailwind", "json-server", "REST"],
+          projectPath: "https://amazing-brown-915705.netlify.app/",
         },
         {
           title: "Hikma Languages",
           paragraph:
             "Developed for a US based company using Nuxt.js and Tailwind CSS. Hikma is multi-language website used to promote the learning of new languages.",
           imagePath: require("../assets/hikma.png"),
-          tags: ["Vue", "Nuxt", "Tailwind"],
+          tags: ["Vue", "Nuxt", "Tailwind", "Storyblok"],
+          projectPath: "https://hikmalanguages.com/",
         },
         {
           title: "Stepping Stones Ed",
@@ -60,9 +61,9 @@ export default {
             "Developed for a UK based personal branding using Nuxt.js and Tailwind CSS. Stepping Stones Ed is a website to promote an childrens workbook.",
           imagePath: require("../assets/sse.png"),
           tags: ["Vue", "Nuxt", "Tailwind"],
+          projectPath: "https://steppingstonesed.co.uk/",
         },
       ],
-      // projectDescription: "Something here",
     };
   },
 };

@@ -17,6 +17,7 @@ import Footer from "./components/Footer.vue";
 
 export default {
   name: "App",
+  title: "Victor Machado | Portfolio",
   components: {
     NavBar,
     AboutMe,

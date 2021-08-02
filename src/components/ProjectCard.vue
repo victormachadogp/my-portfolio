@@ -1,6 +1,8 @@
 <template>
   <a
+    :href="projectLink"
     class="lg:grid grid-container max-w-md lg:max-w-sm container-projects hover:shadow-2xl mb-3 bg-white"
+    target="_blank"
   >
     <div class="rounded-t-2xl bg-color-fix flex justify-center lg:h-44 p-4">
       <div class="relative">
@@ -36,6 +38,9 @@ export default {
       type: String,
     },
     imageUrl: {
+      type: String,
+    },
+    projectLink: {
       type: String,
     },
     tags: {
