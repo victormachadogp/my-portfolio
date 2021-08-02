@@ -52,7 +52,7 @@ export default {
           paragraph:
             "Developed for a US based company using Nuxt.js and Tailwind CSS. Hikma is multi-language website used to promote the learning of new languages.",
           imagePath: require("../assets/hikma.png"),
-          tags: ["Vue", "Nuxt", "Tailwind"],
+          tags: ["Vue", "Nuxt", "Tailwind", "Storyblok"],
           projectPath: "https://hikmalanguages.com/",
         },
         {
