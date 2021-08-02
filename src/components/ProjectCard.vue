@@ -1,12 +1,12 @@
 <template>
   <a
+    @mouseenter="$emit('show-project-images')"
+    @mouseleave="$emit('hide-project-images')"
     :href="projectLink"
     class="lg:flex grid-container max-w-md lg:max-w-xl container-projects hover:shadow-2xl mb-3 bg-white"
     target="_blank"
   >
     <div
-      @mouseenter="$emit('show-project-images')"
-      @mouseleave="$emit('hide-project-images')"
       class="rounded-l-2xl bg-color-fix flex justify-center lg:max-w-4xl p-4 triangle-icon relative"
     >
       <div class="relative">
