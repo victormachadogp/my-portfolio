@@ -7,7 +7,7 @@
     target="_blank"
   >
     <div
-      class="rounded-l-2xl bg-color-fix flex justify-center lg:max-w-4xl p-4 triangle-icon relative"
+      class="rounded-t-2xl lg:rounded-l-2xl lg:rounded-t-none bg-color-fix flex justify-center lg:max-w-4xl p-4 triangle-icon relative"
     >
       <div class="relative">
         <img ref="imageWanted" class="rounded-t-2xl lg:w-0" :src="imageUrl" />
@@ -61,35 +61,35 @@ export default {
   .grid-container {
     grid-template-rows: 11rem auto 120px;
   }
-}
 
-.triangle-icon::after {
-  content: "";
-  width: 0;
-  height: 0;
-  margin-left: 5px;
-  border-top: 10px solid transparent;
-  border-bottom: 10px solid transparent;
-  border-left: 10px solid #0077ff;
-  position: absolute;
-  left: 100%;
-  top: 50%;
-  transform: translate(-50%, -50%);
-  display: flex;
-}
+  .image-show {
+    width: 200px;
+    transition: 0.2s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
+  }
 
-.image-show {
-  width: 200px;
-  transition: 0.2s;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0s;
-}
+  .image-hide {
+    width: 0px;
+    transition: 0.2s;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
+  }
 
-.image-hide {
-  width: 0px;
-  transition: 0.2s;
-  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
-  transition-delay: 0s;
+  .triangle-icon::after {
+    content: "";
+    width: 0;
+    height: 0;
+    margin-left: 5px;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #0077ff;
+    position: absolute;
+    left: 100%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+  }
 }
 
 .bg-color-fix {

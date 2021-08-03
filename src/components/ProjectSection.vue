@@ -11,10 +11,10 @@
       >
         <ProjectCard
           ref="images"
-          v-on:show-project-images="showImages"
-          v-on:hide-project-images="hideImages"
-          v-for="project in projectDescription"
-          :key="project.title"
+          v-on:show-project-images="showImages(index)"
+          v-on:hide-project-images="hideImages(index)"
+          v-for="(project, index) in projectDescription"
+          :key="index"
           :project-link="project.projectPath"
           :image-url="project.imagePath"
           :title-text="project.title"
@@ -71,16 +71,14 @@ export default {
     };
   },
   methods: {
-    showImages: function() {
-      console.log();
-      var imageOne = this.$refs.images[0].$refs.imageWanted;
+    showImages: function(index) {
+      const imageOne = this.$refs.images[index].$refs.imageWanted;
       imageOne.classList.remove("image-hide");
       imageOne.classList.add("image-show");
     },
 
-    hideImages: function() {
-      console.log();
-      var imageOne = this.$refs.images[0].$refs.imageWanted;
+    hideImages: function(index) {
+      const imageOne = this.$refs.images[index].$refs.imageWanted;
       imageOne.classList.remove("image-show");
       imageOne.classList.add("image-hide");
     },
