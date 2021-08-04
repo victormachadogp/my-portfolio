@@ -7,7 +7,7 @@
 
       <div
         id="parent"
-        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-4 lg:gap-0 container-all"
+        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-1 gap-4 lg:gap-5 container-all"
       >
         <ProjectCard
           ref="images"
