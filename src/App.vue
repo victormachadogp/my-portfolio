@@ -1,6 +1,6 @@
 <template>
   <div id="app" class="overflow-hidden">
-    <section class="container max-w-6xl mx-auto">
+    <section class="container max-w-5xl mx-auto">
       <TheHeader />
       <AboutMe />
       <ProjectSection />
