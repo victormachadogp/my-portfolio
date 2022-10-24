@@ -31,6 +31,8 @@ export default {
 </script>
 
 <style>
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap");
+
 body {
   background-color: #f1f1f1;
 }
