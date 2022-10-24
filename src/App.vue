@@ -28,6 +28,10 @@ export default {
 </script>
 
 <style>
+body {
+  background-color: #f1f1f1;
+}
+
 #app {
   font-family: Roboto, Helvetica, Arial, sans-serif;
 }
