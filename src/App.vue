@@ -1,7 +1,7 @@
 <template>
   <div id="app" class="overflow-hidden">
     <section class="container max-w-6xl mx-auto">
-      <NavBar />
+      <TheHeader />
       <AboutMe />
       <ProjectSection />
       <Footer />
@@ -10,7 +10,7 @@
 </template>
 
 <script>
-import NavBar from "./components/NavBar.vue";
+import TheHeader from "./components/TheHeader.vue";
 import AboutMe from "./components/AboutMe.vue";
 import ProjectSection from "./components/ProjectSection.vue";
 import Footer from "./components/Footer.vue";
@@ -19,7 +19,7 @@ export default {
   name: "App",
   title: "Victor Machado | Portfolio",
   components: {
-    NavBar,
+    TheHeader,
     AboutMe,
     ProjectSection,
     Footer,
