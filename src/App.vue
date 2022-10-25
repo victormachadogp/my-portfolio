@@ -5,6 +5,7 @@
       <SkillBar />
       <AboutMe />
       <ProjectSection />
+      <MyInterests />
       <Footer />
     </section>
   </div>
@@ -15,6 +16,7 @@ import TheHeader from "./components/TheHeader.vue";
 import SkillBar from "./components/SkillBar.vue";
 import AboutMe from "./components/AboutMe.vue";
 import ProjectSection from "./components/ProjectSection.vue";
+import MyInterests from "./components/MyInterests.vue";
 import Footer from "./components/Footer.vue";
 
 export default {
@@ -25,6 +27,7 @@ export default {
     SkillBar,
     AboutMe,
     ProjectSection,
+    MyInterests,
     Footer,
   },
 };
@@ -38,6 +41,6 @@ body {
 }
 
 #app {
-  font-family: Roboto, Helvetica, Arial, sans-serif;
+  font-family: Work Sans, Helvetica, Arial, sans-serif;
 }
 </style>
