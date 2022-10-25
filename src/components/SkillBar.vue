@@ -4,7 +4,7 @@
       expanded-width
       flex
       uppercase
-      mt-2
+      mt-6
       border-t-2 border-b-2 border-black
       p-3
     "

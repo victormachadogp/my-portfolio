@@ -1,5 +1,5 @@
 <template>
-  <div class="flex mt-10 mb-10">
+  <div class="flex mt-14 mb-10">
     <div class="w-1/2 font-bold">Check out my projects</div>
     <div class="w-1/2">
       <div class="space-y-8">
