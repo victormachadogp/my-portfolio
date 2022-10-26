@@ -1,5 +1,5 @@
 <template>
-  <div class="flex mb-56">
+  <div class="flex mb-32">
     <div class="w-1/2"></div>
     <div class="w-1/2">
       <h3 class="text-2xl font-medium border-b border-black pb-2">
