@@ -43,5 +43,12 @@ export default {
 <style>
 .btn-style {
   box-shadow: 2px 2px 0px #f1f1f1, 3px 3px 0px #222222;
+  transition-duration: 0.35s;
+}
+
+.btn-style:hover {
+  box-shadow: 2px 2px 0px #222, 3px 3px 0px #222222;
+  transition-duration: 0.35s;
+  /* transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 </style>
