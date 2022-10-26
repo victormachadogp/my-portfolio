@@ -9,20 +9,32 @@
       p-3
     "
   >
-    <div class="w-full max-w-5xl mx-auto">
+    <div class="w-full mx-auto">
       <div class="flex items-center">
-        <span class="border border-gray-800 rounded-full py-1 px-2"
+        <div class="flex space-x-3 font-medium">
+          <div>Nuxt</div>
+          <div>SASS</div>
+        </div>
+        <span class="border border-gray-800 rounded-full py-1 px-2 mx-3"
           >Skills</span
         >
-        <div class="flex space-x-2 font-bold">
-          <div>Nuxt</div>
+        <div class="flex space-x-3 font-medium">
+          <div>Vue</div>
+          <div>SASS</div>
           <div>StoryBlok</div>
+          <div>Nuxt</div>
           <div>HTML</div>
           <div>JavaScript</div>
-          <div>SASS</div>
           <div>Tailwind</div>
           <div>CSS</div>
           <div>Vue</div>
+          <div>SASS</div>
+          <div>StoryBlok</div>
+          <div>Nuxt</div>
+          <div>HTML</div>
+          <div>JavaScript</div>
+          <div>Tailwind</div>
+          <div>CSS</div>
         </div>
       </div>
     </div>
