@@ -6,9 +6,9 @@
       <AboutMe />
       <ProjectSection />
       <MyInterests />
-      <Footer />
       <LatestReadings />
       <Quote />
+      <Footer />
     </section>
   </div>
 </template>

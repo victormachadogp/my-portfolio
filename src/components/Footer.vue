@@ -1,5 +1,22 @@
 <template>
-  <div></div>
+  <div class="expanded-width border-t border-black mt-12">
+    <div
+      class="
+        w-full
+        max-w-5xl
+        mx-auto
+        flex
+        justify-between
+        py-12
+        font-medium
+        text-sm
+      "
+    >
+      <p>DESIGN AND CODE BY</p>
+      <p class="border-b border-black">VICTOR MACHADO</p>
+      <p>2022</p>
+    </div>
+  </div>
 </template>
 
 <script>
