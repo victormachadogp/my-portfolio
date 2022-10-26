@@ -7,6 +7,7 @@
       <ProjectSection />
       <MyInterests />
       <Footer />
+      <LatestReadings />
     </section>
   </div>
 </template>
@@ -17,6 +18,7 @@ import SkillBar from "./components/SkillBar.vue";
 import AboutMe from "./components/AboutMe.vue";
 import ProjectSection from "./components/ProjectSection.vue";
 import MyInterests from "./components/MyInterests.vue";
+import LatestReadings from "./components/LatestReadings.vue";
 import Footer from "./components/Footer.vue";
 
 export default {
@@ -28,6 +30,7 @@ export default {
     AboutMe,
     ProjectSection,
     MyInterests,
+    LatestReadings,
     Footer,
   },
 };
