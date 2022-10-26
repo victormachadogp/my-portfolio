@@ -1,5 +1,12 @@
 <template>
-  <div class="flex mt-14 mb-10">
+  <div class="flex mt-14 mb-12">
+    <img
+      class="absolute left-0 opacity-75"
+      src="../assets/decoration.svg"
+      draggable="false"
+      alt=""
+    />
+
     <div class="w-1/2 font-bold">
       <div class="flex items-center">
         Check out my projects
