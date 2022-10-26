@@ -25,13 +25,29 @@
             </p>
           </div>
         </div>
-        <div class="w-1/5 underline">
-          <p>Check Original</p>
+        <div class="w-1/5">
+          <a
+            href="https://www.nasa.gov/mediacast/gravity-assist-how-we-make-webb-and-hubble-images"
+            target="_blank"
+          >
+            <div class="flex items-center">
+              <p class="custom-underline cursor-pointer">Check Original</p>
+              <img class="ml-2" src="../assets/arrow-angle.svg" alt="" />
+            </div>
+          </a>
         </div>
       </div>
       <div class="flex w-full mt-28">
         <div class="w-1/5">
-          <p class="underline">Check Original</p>
+          <a
+            href="https://www.vangoghmuseum.nl/en/collection/s0176V1962"
+            target="_blank"
+          >
+            <div class="flex items-center">
+              <p class="custom-underline cursor-pointer">Check Original</p>
+              <img class="ml-2" src="../assets/arrow-angle.svg" alt="" />
+            </div>
+          </a>
         </div>
         <div class="w-4/5">
           <div>
@@ -67,4 +83,14 @@ export default {};
 </script>
 
 <style>
+.custom-underline {
+  background-image: linear-gradient(to bottom, #111 75%, #111 75%);
+  background-repeat: repeat-x;
+  background-size: 1px 1px;
+  background-position: 0 97%;
+}
+
+.custom-underline:hover {
+  background-image: linear-gradient(to bottom, #919090 75%, #919090 75%);
+}
 </style>
