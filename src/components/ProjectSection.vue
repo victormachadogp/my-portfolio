@@ -1,6 +1,12 @@
 <template>
   <div class="flex mt-14 mb-10">
-    <div class="w-1/2 font-bold">Check out my projects</div>
+    <div class="w-1/2 font-bold">
+      <div class="flex items-center">
+        Check out my projects
+        <img class="ml-2" src="../assets/arrow-right.svg" alt="" />
+      </div>
+    </div>
+
     <div class="w-1/2">
       <div class="space-y-8">
         <project-item />
