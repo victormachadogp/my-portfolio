@@ -1,6 +1,6 @@
 <template>
-  <div class="mb-52">
-    <h4 class="border-b border-black text-right text-xl font-medium">
+  <div class="mb-32">
+    <h4 class="border-b border-black text-right text-xl font-medium pb-1">
       Oscar Wilde
     </h4>
     <div class="flex mt-4">
