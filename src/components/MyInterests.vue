@@ -29,6 +29,35 @@
           <p>Check Original</p>
         </div>
       </div>
+      <div class="flex w-full mt-28">
+        <div class="w-1/5">
+          <p class="underline">Check Original</p>
+        </div>
+        <div class="w-4/5">
+          <div>
+            <img src="../assets/almond-painting.jpg" alt="" />
+            <div class="flex mt-6">
+              <div class="w-1/2">
+                <p class="text-2xl font-medium leading-6">
+                  Almond Blossom, <br />
+                  Van Gogh
+                </p>
+                <p class="text-gray-500 text-sm pt-1">
+                  A piece from my favorite painting
+                </p>
+              </div>
+              <div class="w-1/2 font-medium text-sm">
+                <p class="w-72">
+                  Almond trees flower early in the spring making them a symbol
+                  of new life. Van Gogh borrowed the subject, the bold outlines
+                  and the positioning of the tree in the picture plane from
+                  Japanese printmaking.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </div>
 </template>
