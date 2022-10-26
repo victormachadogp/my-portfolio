@@ -13,7 +13,7 @@
       "
     >
       <p>DESIGN AND CODE BY</p>
-      <p class="border-b border-black">VICTOR MACHADO</p>
+      <p class="border-b border-black" title="Yep, that's me">VICTOR MACHADO</p>
       <p>2022</p>
     </div>
   </div>
