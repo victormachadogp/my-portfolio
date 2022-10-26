@@ -8,6 +8,7 @@
       <MyInterests />
       <Footer />
       <LatestReadings />
+      <Quote />
     </section>
   </div>
 </template>
@@ -19,6 +20,7 @@ import AboutMe from "./components/AboutMe.vue";
 import ProjectSection from "./components/ProjectSection.vue";
 import MyInterests from "./components/MyInterests.vue";
 import LatestReadings from "./components/LatestReadings.vue";
+import Quote from "./components/Quote.vue";
 import Footer from "./components/Footer.vue";
 
 export default {
@@ -31,6 +33,7 @@ export default {
     ProjectSection,
     MyInterests,
     LatestReadings,
+    Quote,
     Footer,
   },
 };
