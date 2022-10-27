@@ -80,4 +80,8 @@ export default {};
 .border-x-fix:hover ~ .position-top {
   border-top: 1px solid #000;
 }
+
+.position-top:hover ~ .position-top-2 {
+  border-top: 1px solid #000;
+}
 </style>
