@@ -1,5 +1,5 @@
 <template>
-  <div class="px-2.5 sm:px-0">
+  <div class="px-5 sm:px-0">
     <div class="flex flex-col sm:flex-row py-28 sm:items-center items-start">
       <div class="align-start text-5xl sm:w-1/2 w-full">
         <h2
