@@ -1,20 +1,24 @@
 <template>
-  <div class="flex mt-14 mb-12">
+  <div class="flex sm:flex-row flex-col mt-14 mb-12 px-5 sm:px-0">
     <img
-      class="absolute left-0 opacity-75"
+      class="absolute left-0 sm:opacity-75 opacity-30"
       src="../assets/decoration.svg"
       draggable="false"
       alt=""
     />
 
-    <div class="w-1/2 font-bold">
-      <div class="flex items-center">
+    <div class="sm:w-1/2 w-full font-bold">
+      <div class="flex items-center sm:pb-0 pb-12">
         Check out my projects
-        <img class="ml-2" src="../assets/arrow-right.svg" alt="" />
+        <img
+          class="ml-2 sm:block hidden"
+          src="../assets/arrow-right.svg"
+          alt=""
+        />
       </div>
     </div>
 
-    <div class="w-1/2">
+    <div class="sm:w-1/2 w-full">
       <div class="space-y-8">
         <project-item />
         <project-item />
