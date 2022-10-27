@@ -1,13 +1,23 @@
 <template>
-  <div class="mt-10">
+  <div class="mt-10 px-2.5 sm:px-0">
     <div class="flex">
-      <div class="uppercase developer-info w-1/2">
+      <div class="uppercase developer-info sm:w-1/2 w-5/6">
         <h1>Front-end Developer</h1>
-        <h2 class="font-medium text-7xl mt-10">
+        <h2 class="font-medium sm:text-7xl text-5xl mt-10">
           Victor <span><br />Machado</span>
         </h2>
       </div>
-      <div class="w-1/2 flex flex-col space-y-3.5 justify-end items-end">
+      <div
+        class="
+          sm:w-1/2
+          w-1/6
+          flex flex-col
+          space-y-3.5
+          justify-end
+          sm:items-end
+          items-center
+        "
+      >
         <a href="https://github.com/victormachadogp" target="_blank">
           <GithubIcon class="w-6 h-6" />
         </a>
