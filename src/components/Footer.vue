@@ -6,6 +6,12 @@
         max-w-5xl
         mx-auto
         flex
+        sm:flex-row
+        flex-col
+        sm:gap-0
+        gap-8
+        sm:text-left
+        text-center
         justify-between
         py-12
         font-medium
@@ -13,7 +19,9 @@
       "
     >
       <p>DESIGN AND CODE BY</p>
-      <p class="custom-underline" title="Yep, that's me">VICTOR MACHADO</p>
+      <div class="sm:block flex justify-center">
+        <p class="custom-underline" title="Yep, that's me">VICTOR MACHADO</p>
+      </div>
       <p>2022</p>
     </div>
   </div>
