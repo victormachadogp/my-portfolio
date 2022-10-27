@@ -1,7 +1,7 @@
 <template>
-  <div class="flex mb-32">
-    <div class="w-1/2"></div>
-    <div class="w-1/2">
+  <div class="flex mb-32 px-5 sm:px-0">
+    <div class="w-1/2 sm:block hidden"></div>
+    <div class="sm:w-1/2 w-full">
       <h3 class="text-2xl font-medium pb-2">Latest Readings</h3>
 
       <div class="border-x-fix">
@@ -16,8 +16,8 @@
             hover:border-black hover:text-black
           "
         >
-          <p>Crime and Punishment</p>
-          <p>Fiódor Dostoiévski</p>
+          <p class="text-left">Crime and Punishment</p>
+          <p class="text-right">Fiódor Dostoiévski</p>
         </div>
         <p class="leading-8 py-3 hidden">
           “Pain and suffering are always inevitable for a large intelligence and
@@ -37,8 +37,8 @@
         "
       >
         <div class="flex justify-between py-3 pb-3">
-          <p>Liev Tolstói</p>
-          <p>Anna Karênina</p>
+          <p class="text-left">Liev Tolstói</p>
+          <p class="text-right">Anna Karênina</p>
         </div>
         <p class="leading-8 py-3 hidden">Quote</p>
       </div>
@@ -53,8 +53,8 @@
         "
       >
         <div class="flex justify-between py-3 pb-3">
-          <p>Frankenstein</p>
-          <p>Mary Shelley</p>
+          <p class="text-right">Frankenstein</p>
+          <p class="text-left">Mary Shelley</p>
         </div>
         <p class="leading-8 py-3 hidden">Quote</p>
       </div>
