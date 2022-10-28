@@ -5,7 +5,7 @@
     <div class="mt-12 mb-20">
       <div class="flex sm:flex-row flex-col">
         <div class="sm:w-4/5 w-full">
-          <div>
+          <div class="relative z-10">
             <img src="../assets/space-image.jpg" alt="" />
           </div>
           <div class="flex sm:flex-row flex-col mt-6">
