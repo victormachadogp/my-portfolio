@@ -1,10 +1,10 @@
 <template>
   <div class="flex mb-32 px-5 sm:px-0">
-    <div class="w-1/2 sm:block hidden"></div>
-    <div class="sm:w-1/2 w-full">
+    <div class="w-2/5 sm:block hidden"></div>
+    <div class="sm:w-3/5 w-full">
       <h3 class="text-2xl font-medium pb-2">Latest Readings</h3>
 
-      <div class="border-x-fix">
+      <div class="border-x-fix sm:text-lg text-md">
         <div
           class="
             flex
@@ -34,6 +34,8 @@
           position-top
           border-b border-gray-400
           hover:border-black
+          sm:text-lg
+          text-md
         "
       >
         <div class="flex justify-between py-3 pb-3">
@@ -50,6 +52,8 @@
           position-top-2
           border-b border-gray-400
           hover:border-black
+          sm:text-lg
+          text-md
         "
       >
         <div class="flex justify-between py-3 pb-3">
