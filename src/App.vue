@@ -1,14 +1,18 @@
 <template>
   <div id="app" class="overflow-hidden">
-    <section class="container max-w-5xl mx-auto">
-      <TheHeader />
-      <SkillBar />
-      <AboutMe />
-      <ProjectSection />
-      <MyInterests />
-      <LatestReadings />
-      <Quote />
-      <Footer />
+    <section
+      class="overflow-hidden main-container mx-auto 2xl:mx-0 2xl:container"
+    >
+      <div class="max-w-5xl 2xl:max-w-6xl mx-auto">
+        <TheHeader />
+        <SkillBar />
+        <AboutMe />
+        <ProjectSection />
+        <MyInterests />
+        <LatestReadings />
+        <Quote />
+        <Footer />
+      </div>
     </section>
   </div>
 </template>
@@ -43,6 +47,10 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap");
 
 body {
+  background-color: #262626;
+}
+
+.main-container {
   background-color: #f1f1f1;
 }
 

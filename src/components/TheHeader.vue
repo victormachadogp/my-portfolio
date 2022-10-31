@@ -1,5 +1,5 @@
 <template>
-  <div class="mt-10 px-5 sm:px-0">
+  <div class="pt-10 px-5 sm:px-0">
     <div class="flex">
       <div class="uppercase developer-info sm:w-1/2 w-5/6">
         <h1>Front-end Developer</h1>
