@@ -61,7 +61,6 @@ export default {
           title: "Todo - REST API",
           paragraph:
             "Todo List developed using Vue and Tailwind CSS, I used json-server as a fake api to handle the data.",
-          imagePath: require("../assets/todo-rest.png"),
           backgroundImage: require("../assets/site-banner-1.jpg"),
           projectPath: "https://amazing-brown-915705.netlify.app/",
         },
@@ -69,14 +68,14 @@ export default {
           title: "Hikma Languages",
           paragraph:
             "Developed for a US based company using Nuxt.js and Tailwind CSS. Hikma is multi-language website used to promote the learning of new languages.",
-          imagePath: require("../assets/hikma.png"),
+          backgroundImage: require("../assets/site-banner-1.jpg"),
           projectPath: "https://hikmalanguages.com/",
         },
         {
           title: "Stepping Stones Ed",
           paragraph:
             "Developed for a UK based personal branding using Nuxt.js and Tailwind CSS. Stepping Stones Ed is a website to promote an childrens workbook.",
-          imagePath: require("../assets/sse.png"),
+          backgroundImage: require("../assets/site-banner-1.jpg"),
           projectPath: "https://steppingstonesed.co.uk/",
         },
       ],
