@@ -1,5 +1,6 @@
 <template>
-  <div id="app" class="overflow-hidden">
+  <div id="app" class="overflow-hidden relative">
+    <TheSidebar />
     <section
       class="overflow-hidden main-container mx-auto 2xl:mx-0 2xl:container"
     >
@@ -26,6 +27,7 @@ import MyInterests from "./components/MyInterests.vue";
 import LatestReadings from "./components/LatestReadings.vue";
 import Quote from "./components/Quote.vue";
 import Footer from "./components/Footer.vue";
+import TheSidebar from "./components/TheSidebar.vue";
 
 export default {
   name: "App",
@@ -39,6 +41,7 @@ export default {
     LatestReadings,
     Quote,
     Footer,
+    TheSidebar,
   },
 };
 </script>
@@ -47,7 +50,7 @@ export default {
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500&display=swap");
 
 body {
-  background-color: #262626;
+  background-color: #111;
 }
 
 .main-container {
@@ -56,5 +59,11 @@ body {
 
 #app {
   font-family: Work Sans, Helvetica, Arial, sans-serif;
+}
+
+@media (min-width: 1546px) {
+  .main-container {
+    padding-left: 4rem;
+  }
 }
 </style>
