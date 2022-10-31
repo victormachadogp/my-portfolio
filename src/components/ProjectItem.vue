@@ -36,9 +36,6 @@ export default {
     paragraph: {
       type: String,
     },
-    imageUrl: {
-      type: String,
-    },
     backgroundPath: {
       type: String,
     },
