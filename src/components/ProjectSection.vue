@@ -58,18 +58,18 @@ export default {
     return {
       projectDescription: [
         {
-          title: "Todo - REST API",
-          paragraph:
-            "Todo List developed using Vue and Tailwind CSS, I used json-server as a fake api to handle the data.",
-          backgroundImage: require("../assets/site-banner-1.jpg"),
-          projectPath: "https://amazing-brown-915705.netlify.app/",
-        },
-        {
           title: "Hikma Languages",
           paragraph:
             "Developed for a US based company using Nuxt.js and Tailwind CSS. Hikma is multi-language website used to promote the learning of new languages.",
           backgroundImage: require("../assets/site-banner-1.jpg"),
           projectPath: "https://hikmalanguages.com/",
+        },
+        {
+          title: "Todo - REST API",
+          paragraph:
+            "Todo List developed using Vue and Tailwind CSS, I used json-server as a fake api to handle the data.",
+          backgroundImage: require("../assets/site-banner-2.jpg"),
+          projectPath: "https://amazing-brown-915705.netlify.app/",
         },
         {
           title: "Stepping Stones Ed",

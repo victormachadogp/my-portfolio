@@ -1,6 +1,6 @@
 <template>
   <div class="cursor-pointer">
-    <a :href="projectLink">
+    <a :href="projectLink" target="_blank">
       <div class="project-info pb-3">
         <div class="flex items-center">
           <p class="font-bold text-lg">{{ titleText }}</p>
