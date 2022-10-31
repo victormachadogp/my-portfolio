@@ -20,9 +20,15 @@
 
     <div class="sm:w-1/2 w-full">
       <div class="space-y-8">
-        <project-item />
-        <project-item />
-        <project-item />
+        <ProjectItem
+          v-for="project in projectDescription"
+          :key="project.title"
+          :project-link="project.projectPath"
+          :image-url="project.imagePath"
+          :title-text="project.title"
+          :backgroundPath="project.backgroundImage"
+          :paragraph="project.paragraph"
+        ></ProjectItem>
       </div>
       <button
         class="
@@ -47,6 +53,34 @@ import ProjectItem from "./ProjectItem.vue";
 export default {
   components: {
     ProjectItem,
+  },
+  data() {
+    return {
+      projectDescription: [
+        {
+          title: "Todo - REST API",
+          paragraph:
+            "Todo List developed using Vue and Tailwind CSS, I used json-server as a fake api to handle the data.",
+          imagePath: require("../assets/todo-rest.png"),
+          backgroundImage: require("../assets/site-banner-1.jpg"),
+          projectPath: "https://amazing-brown-915705.netlify.app/",
+        },
+        {
+          title: "Hikma Languages",
+          paragraph:
+            "Developed for a US based company using Nuxt.js and Tailwind CSS. Hikma is multi-language website used to promote the learning of new languages.",
+          imagePath: require("../assets/hikma.png"),
+          projectPath: "https://hikmalanguages.com/",
+        },
+        {
+          title: "Stepping Stones Ed",
+          paragraph:
+            "Developed for a UK based personal branding using Nuxt.js and Tailwind CSS. Stepping Stones Ed is a website to promote an childrens workbook.",
+          imagePath: require("../assets/sse.png"),
+          projectPath: "https://steppingstonesed.co.uk/",
+        },
+      ],
+    };
   },
 };
 </script>
