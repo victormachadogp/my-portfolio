@@ -11,7 +11,7 @@
         </p>
       </div>
       <div
-        class="image-container"
+        class="image-container hidden lg:block"
         :style="{ 'background-image': `url(${backgroundPath})` }"
       >
         <!-- <img class="w-full" src="../assets/site-banner-1.jpg" alt="" /> -->
