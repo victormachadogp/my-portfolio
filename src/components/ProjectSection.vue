@@ -3,7 +3,7 @@
     class="flex sm:flex-row flex-col mt-14 mb-12 px-5 sm:px-10 md:px-10 xl:px-0"
   >
     <img
-      class="absolute left-0 sm:opacity-75 opacity-30"
+      class="absolute left-0 sm:opacity-75 opacity-30 z-0"
       src="../assets/decoration.svg"
       draggable="false"
       alt=""
@@ -20,7 +20,7 @@
       </div>
     </div>
 
-    <div class="sm:w-1/2 w-full">
+    <div class="sm:w-1/2 w-full z-10">
       <div class="space-y-8">
         <ProjectItem
           v-for="project in projectDescription"
