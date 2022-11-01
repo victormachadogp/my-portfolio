@@ -1,5 +1,5 @@
 <template>
-  <div class="mb-32 px-5 sm:px-0">
+  <div class="mb-32 px-5 sm:px-10 md:px-10 xl:px-0">
     <h4 class="border-b border-black text-right text-xl font-medium pb-1">
       Oscar Wilde
     </h4>

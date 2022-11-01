@@ -1,5 +1,15 @@
 <template>
-  <div class="expanded-width border-t border-black mt-12">
+  <div
+    class="
+      expanded-width
+      border-t border-black
+      mt-12
+      px-5
+      sm:px-10
+      md:px-10
+      xl:px-0
+    "
+  >
     <div
       class="
         w-full

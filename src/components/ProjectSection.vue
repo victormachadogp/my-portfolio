@@ -1,5 +1,7 @@
 <template>
-  <div class="flex sm:flex-row flex-col mt-14 mb-12 px-5 sm:px-0">
+  <div
+    class="flex sm:flex-row flex-col mt-14 mb-12 px-5 sm:px-10 md:px-10 xl:px-0"
+  >
     <img
       class="absolute left-0 sm:opacity-75 opacity-30"
       src="../assets/decoration.svg"

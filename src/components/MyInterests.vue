@@ -1,5 +1,5 @@
 <template>
-  <div class="px-5 sm:px-0">
+  <div class="px-5 sm:px-10 md:px-10 xl:px-0">
     <h2 class="text-4xl font-medium">My Interests</h2>
 
     <div class="mt-12 mb-20">
