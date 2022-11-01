@@ -19,13 +19,13 @@
               </p>
             </div>
             <p class="sm:w-2/5 w-full sm:mt-0 mt-6 font-medium text-sm">
-              A monster young star 200,000 times brighter than our Sun that is
+              "A monster young star 200,000 times brighter than our Sun that is
               blasting powerful ultraviolet radiation and hurricane-like stellar
-              winds.
+              winds."
             </p>
           </div>
         </div>
-        <div class="sm:w-1/5 w-full">
+        <div class="sm:w-1/5 w-full md:ml-4 lg:ml-0">
           <a
             href="https://www.nasa.gov/mediacast/gravity-assist-how-we-make-webb-and-hubble-images"
             target="_blank"
@@ -38,7 +38,7 @@
         </div>
       </div>
       <div class="flex sm:flex-row flex-col-reverse w-full mt-28">
-        <div class="sm:w-1/5 w-full">
+        <div class="sm:w-1/5 w-full md:mr-4 lg:mr-0">
           <a
             href="https://www.vangoghmuseum.nl/en/collection/s0176V1962"
             target="_blank"
@@ -64,10 +64,10 @@
               </div>
               <div class="sm:w-1/2 w-full font-medium text-sm">
                 <p class="sm:w-72 w-full sm:mt-0 mt-6">
-                  Almond trees flower early in the spring making them a symbol
+                  "Almond trees flower early in the spring making them a symbol
                   of new life. Van Gogh borrowed the subject, the bold outlines
                   and the positioning of the tree in the picture plane from
-                  Japanese printmaking.
+                  Japanese printmaking."
                 </p>
               </div>
             </div>

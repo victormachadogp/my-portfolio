@@ -2,7 +2,9 @@
   <div
     class="
       expanded-width
+      prevent-scrollbar
       flex
+      overflow-auto
       uppercase
       mt-6
       border-t-2 border-b-2 border-black
@@ -66,5 +68,9 @@ export default {};
   position: relative;
   margin-left: -50vw;
   left: 50%;
+}
+
+.prevent-scrollbar::-webkit-scrollbar {
+  display: none;
 }
 </style>
