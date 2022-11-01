@@ -25,7 +25,7 @@
             </p>
           </div>
         </div>
-        <div class="sm:w-1/5 w-full">
+        <div class="sm:w-1/5 w-full md:ml-4 lg:ml-0">
           <a
             href="https://www.nasa.gov/mediacast/gravity-assist-how-we-make-webb-and-hubble-images"
             target="_blank"
@@ -38,7 +38,7 @@
         </div>
       </div>
       <div class="flex sm:flex-row flex-col-reverse w-full mt-28">
-        <div class="sm:w-1/5 w-full">
+        <div class="sm:w-1/5 w-full md:mr-4 lg:mr-0">
           <a
             href="https://www.vangoghmuseum.nl/en/collection/s0176V1962"
             target="_blank"
