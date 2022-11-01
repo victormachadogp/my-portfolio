@@ -19,9 +19,9 @@
               </p>
             </div>
             <p class="sm:w-2/5 w-full sm:mt-0 mt-6 font-medium text-sm">
-              A monster young star 200,000 times brighter than our Sun that is
+              "A monster young star 200,000 times brighter than our Sun that is
               blasting powerful ultraviolet radiation and hurricane-like stellar
-              winds.
+              winds."
             </p>
           </div>
         </div>
@@ -64,10 +64,10 @@
               </div>
               <div class="sm:w-1/2 w-full font-medium text-sm">
                 <p class="sm:w-72 w-full sm:mt-0 mt-6">
-                  Almond trees flower early in the spring making them a symbol
+                  "Almond trees flower early in the spring making them a symbol
                   of new life. Van Gogh borrowed the subject, the bold outlines
                   and the positioning of the tree in the picture plane from
-                  Japanese printmaking.
+                  Japanese printmaking."
                 </p>
               </div>
             </div>
