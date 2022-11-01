@@ -1,66 +1,83 @@
 <template>
-  <section class="bg-color expanded-width border-decoration ">
-    <div class="mt-5 md:p-6 lg:px-10 max-w-6xl mx-auto pb-12 md:pb-6 mb-12">
-      <h2 class="text-3xl pt-2 md:pt-6 text-center my-10 md:my-6 mx-6 md:mx-4">
-        Projects
-      </h2>
+  <div
+    class="flex sm:flex-row flex-col mt-14 mb-12 px-5 sm:px-10 md:px-10 xl:px-0"
+  >
+    <img
+      class="absolute left-0 sm:opacity-75 opacity-30"
+      src="../assets/decoration.svg"
+      draggable="false"
+      alt=""
+    />
 
-      <div
-        class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 lg:gap-0 container-all"
-      >
-        <ProjectCard
+    <div class="sm:w-1/2 w-full font-bold">
+      <div class="flex items-center sm:pb-0 pb-12">
+        Check out my projects
+        <img
+          class="ml-2 sm:block hidden"
+          src="../assets/arrow-right.svg"
+          alt=""
+        />
+      </div>
+    </div>
+
+    <div class="sm:w-1/2 w-full">
+      <div class="space-y-8">
+        <ProjectItem
           v-for="project in projectDescription"
           :key="project.title"
           :project-link="project.projectPath"
           :image-url="project.imagePath"
           :title-text="project.title"
+          :backgroundPath="project.backgroundImage"
           :paragraph="project.paragraph"
-          :tags="project.tags"
-        >
-        </ProjectCard>
+        ></ProjectItem>
       </div>
-      <div class="flex justify-center my-5">
-        <a
-          href="https://github.com/victormachadogp"
-          class="rounded-full p-3 px-5 color text-white text-md"
-          >View All Github Projects</a
-        >
-      </div>
+      <button
+        class="
+          uppercase
+          btn-style
+          font-bold
+          border border-black
+          rounded-full
+          px-7
+          py-3
+          mt-12
+        "
+      >
+        View All Github Projects
+      </button>
     </div>
-  </section>
+  </div>
 </template>
 
 <script>
-import ProjectCard from "@/components/ProjectCard.vue";
+import ProjectItem from "./ProjectItem.vue";
 export default {
   components: {
-    ProjectCard,
+    ProjectItem,
   },
   data() {
     return {
       projectDescription: [
         {
-          title: "Todo - REST API",
-          paragraph:
-            "Todo List developed using Vue and Tailwind CSS, I used json-server as a fake api to handle the data.",
-          imagePath: require("../assets/todo-rest.png"),
-          tags: ["Vue", "Tailwind", "json-server", "REST"],
-          projectPath: "https://amazing-brown-915705.netlify.app/",
-        },
-        {
           title: "Hikma Languages",
           paragraph:
             "Developed for a US based company using Nuxt.js and Tailwind CSS. Hikma is multi-language website used to promote the learning of new languages.",
-          imagePath: require("../assets/hikma.png"),
-          tags: ["Vue", "Nuxt", "Tailwind", "Storyblok"],
+          backgroundImage: require("../assets/site-banner-1.jpg"),
           projectPath: "https://hikmalanguages.com/",
+        },
+        {
+          title: "Todo - REST API",
+          paragraph:
+            "Todo List developed using Vue and Tailwind CSS, I used json-server as a fake api to handle the data.",
+          backgroundImage: require("../assets/site-banner-2.jpg"),
+          projectPath: "https://amazing-brown-915705.netlify.app/",
         },
         {
           title: "Stepping Stones Ed",
           paragraph:
             "Developed for a UK based personal branding using Nuxt.js and Tailwind CSS. Stepping Stones Ed is a website to promote an childrens workbook.",
-          imagePath: require("../assets/sse.png"),
-          tags: ["Vue", "Nuxt", "Tailwind"],
+          backgroundImage: require("../assets/site-banner-3.jpg"),
           projectPath: "https://steppingstonesed.co.uk/",
         },
       ],
@@ -69,48 +86,15 @@ export default {
 };
 </script>
 
-<style scoped>
-.container-all {
-  justify-items: center;
+<style>
+.btn-style {
+  box-shadow: 2px 2px 0px #f1f1f1, 3px 3px 0px #222222;
+  transition-duration: 0.35s;
 }
 
-.container-projects {
-  @apply text-gray-900 mx-4;
-  box-shadow: 0 1px 6px 0 rgba(32, 33, 36, 0.28);
-  border-radius: 21px;
-  min-width: 19rem;
-}
-
-.bg-color {
-  background-color: #f8f8f8;
-}
-
-.border-decoration {
-  border-top: 3px solid #00a3ff;
-}
-
-.word-filter {
-  color: #686868;
-  background-color: #ededed;
-}
-
-.bg-color-container {
-  background-color: #0177ff;
-  border-radius: 21px 21px 0 0;
-}
-
-.border-radius {
-  border-radius: 21px 21px 0 0;
-}
-
-@media (min-width: 1024px) {
-  .image-icon {
-    width: 7rem;
-    height: 7rem;
-  }
-}
-
-.color {
-  background-color: #00a3ff;
+.btn-style:hover {
+  box-shadow: 2px 2px 0px #222, 3px 3px 0px #222222;
+  transition-duration: 0.35s;
+  /* transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); */
 }
 </style>

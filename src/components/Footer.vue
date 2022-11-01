@@ -1,14 +1,45 @@
 <template>
-  <footer class="text-center pb-8">
-    <p class="text-xs text-gray-500 py-1">Coded and Designed by</p>
-    <h3 class="text-2xl text-gray-800">Victor Machado.</h3>
-    <div class="border-b-2 border-gray-400 my-2"></div>
-    <p class="text-xs text-gray-500">Seeking Learning.</p>
-  </footer>
+  <div
+    class="
+      expanded-width
+      border-t border-black
+      mt-12
+      px-5
+      sm:px-10
+      md:px-10
+      xl:px-0
+    "
+  >
+    <div
+      class="
+        w-full
+        max-w-5xl
+        mx-auto
+        flex
+        sm:flex-row
+        flex-col
+        sm:gap-0
+        gap-8
+        sm:text-left
+        text-center
+        justify-between
+        py-12
+        font-medium
+        text-sm
+      "
+    >
+      <p>DESIGN AND CODE BY</p>
+      <div class="sm:block flex justify-center">
+        <p class="custom-underline" title="Yep, that's me">VICTOR MACHADO</p>
+      </div>
+      <p>2022</p>
+    </div>
+  </div>
 </template>
 
-<style scoped>
-.bg-color {
-  background-color: #0077ff;
-}
+<script>
+export default {};
+</script>
+
+<style>
 </style>
