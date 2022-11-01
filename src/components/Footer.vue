@@ -28,11 +28,11 @@
         text-sm
       "
     >
-      <p>DESIGN AND CODE BY</p>
-      <div class="sm:block flex justify-center">
+      <p class="flex-1">DESIGN AND CODE BY</p>
+      <div class="flex justify-center flex-1">
         <p class="custom-underline" title="Yep, that's me">VICTOR MACHADO</p>
       </div>
-      <p>2022</p>
+      <p class="flex-1 sm:text-right">2022</p>
     </div>
   </div>
 </template>
