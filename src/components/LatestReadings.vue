@@ -16,8 +16,32 @@
             hover:border-black hover:text-black
           "
         >
-          <p class="text-left">Crime and Punishment</p>
-          <p class="text-right">Fiódor Dostoiévski</p>
+          <p class="text-left">Into the Wild</p>
+          <p class="text-right">Jon Krakauer</p>
+        </div>
+        <p class="leading-8 py-3 hidden">
+          “It is the experiences, the great triumphant joy of living to the
+          fullest extent in which real meaning is found.”
+        </p>
+      </div>
+
+      <div
+        class="
+          sm:text-lg
+          text-md
+          position-top
+          border-t
+          text-gray-500
+          hover:text-black
+          border-b border-gray-400
+          hover:border-black
+        "
+      >
+        <div class="">
+          <div class="flex justify-between py-3 pb-3">
+            <p class="text-left">Crime and Punishment</p>
+            <p class="text-right">Fiódor Dostoiévski</p>
+          </div>
         </div>
         <p class="leading-8 py-3 hidden">
           “Pain and suffering are always inevitable for a large intelligence and
@@ -31,7 +55,7 @@
           border-t
           text-gray-500
           hover:text-black
-          position-top
+          position-top-2
           border-b border-gray-400
           hover:border-black
           sm:text-lg
@@ -39,8 +63,8 @@
         "
       >
         <div class="flex justify-between py-3 pb-3">
-          <p class="text-left">Liev Tolstói</p>
-          <p class="text-right">Anna Karênina</p>
+          <p class="text-left">Haruki Murakami</p>
+          <p class="text-right">Norwegian Wood</p>
         </div>
         <p class="leading-8 py-3 hidden">Quote</p>
       </div>
@@ -49,7 +73,7 @@
           border-t
           text-gray-500
           hover:text-black
-          position-top-2
+          position-top-3
           border-b border-gray-400
           hover:border-black
           sm:text-lg
@@ -81,11 +105,20 @@ export default {};
   bottom: 2px;
 }
 
+.position-top-3 {
+  position: relative;
+  bottom: 3px;
+}
+
 .border-x-fix:hover ~ .position-top {
   border-top: 1px solid #000;
 }
 
 .position-top:hover ~ .position-top-2 {
+  border-top: 1px solid #000;
+}
+
+.position-top-2:hover ~ .position-top-3 {
   border-top: 1px solid #000;
 }
 </style>
