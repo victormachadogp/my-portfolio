@@ -1,6 +1,13 @@
 <template>
   <div class="pt-10 px-5 sm:px-10 md:px-10 xl:px-0">
-    <div class="flex">
+    <img
+      class="absolute left-0 top-0 z-0"
+      src="../assets/header-background.png"
+      draggable="false"
+      alt=""
+    />
+
+    <div class="flex z-10 relative">
       <div class="uppercase developer-info sm:w-1/2 w-5/6">
         <h1>Front-end Developer</h1>
         <h2 class="font-medium sm:text-7xl text-5xl mt-10">
