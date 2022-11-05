@@ -1,11 +1,19 @@
 <template>
   <div>
-    <img
-      class="absolute right-0 bottom-0 z-0"
-      src="../assets/footer-background.png"
-      draggable="false"
-      alt=""
-    />
+    <div>
+      <img
+        class="absolute right-0 bottom-0 z-0 image-opacity active"
+        src="../assets/footer-background.png"
+        draggable="false"
+        alt=""
+      />
+      <img
+        class="absolute right-0 bottom-0 z-0 image-opacity"
+        src="../assets/footer-background-2.png"
+        draggable="false"
+        alt=""
+      />
+    </div>
 
     <div
       class="
@@ -50,8 +58,43 @@
 </template>
 
 <script>
-export default {};
+export default {
+  mounted() {
+    function imageFade() {
+      var imagesArray = Array.prototype.slice.call(
+        document.querySelectorAll(".image-opacity")
+      );
+      var imagesCount = imagesArray.length;
+      var active_li_index = 0;
+
+      setInterval(function () {
+        var activeImage = document.querySelector(".image-opacity.active");
+
+        if (imagesArray.indexOf(activeImage) == imagesCount - 1)
+          active_li_index = 0;
+        else active_li_index++;
+
+        activeImage.classList.remove("active");
+        document
+          .querySelectorAll(".image-opacity")
+          // eslint-disable-next-line no-unexpected-multiline
+          [active_li_index].classList.add("active");
+      }, 4000);
+    }
+
+    imageFade();
+  },
+};
 </script>
 
 <style>
+.image-opacity {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+.active {
+  opacity: 0.8;
+}
 </style>

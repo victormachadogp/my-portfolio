@@ -2,13 +2,13 @@
   <div class="pt-10 px-5 sm:px-10 md:px-10 xl:px-0">
     <div>
       <img
-        class="absolute left-0 top-0 z-0 text active"
+        class="absolute left-0 top-0 z-0 image-fade active"
         src="../assets/header-background.png"
         draggable="false"
         alt=""
       />
       <img
-        class="absolute left-0 top-0 z-0 text"
+        class="absolute left-0 top-0 z-0 image-fade"
         src="../assets/header-background-2.png"
         draggable="false"
         alt=""
@@ -58,15 +58,15 @@ import TwitterIcon from "./icons/TwitterIcon.vue";
 export default {
   components: { EmailIcon, GithubIcon, LinkedinIcon, TwitterIcon },
   mounted() {
-    function doThat() {
+    function imageFade() {
       var imagesArray = Array.prototype.slice.call(
-        document.querySelectorAll(".text")
+        document.querySelectorAll(".image-fade")
       );
       var imagesCount = imagesArray.length;
       var active_li_index = 0;
 
       setInterval(function () {
-        var activeImage = document.querySelector(".text.active");
+        var activeImage = document.querySelector(".image-fade.active");
 
         if (imagesArray.indexOf(activeImage) == imagesCount - 1)
           active_li_index = 0;
@@ -74,13 +74,13 @@ export default {
 
         activeImage.classList.remove("active");
         document
-          .querySelectorAll(".text")
+          .querySelectorAll(".image-fade")
           // eslint-disable-next-line no-unexpected-multiline
           [active_li_index].classList.add("active");
       }, 4000);
     }
 
-    doThat();
+    imageFade();
   },
 };
 </script>
@@ -90,14 +90,10 @@ export default {
   font-family: "Work Sans", sans-serif;
 }
 
-.text {
+.image-fade {
   position: absolute;
   opacity: 0;
-  transition: opacity 3s ease-in-out;
-}
-
-.container-2 {
-  display: flex;
+  transition: opacity 2s ease-in-out;
 }
 
 .active {
