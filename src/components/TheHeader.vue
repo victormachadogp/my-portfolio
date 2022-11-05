@@ -1,11 +1,19 @@
 <template>
   <div class="pt-10 px-5 sm:px-10 md:px-10 xl:px-0">
-    <img
-      class="absolute left-0 top-0 z-0"
-      src="../assets/header-background.png"
-      draggable="false"
-      alt=""
-    />
+    <div>
+      <img
+        class="absolute left-0 top-0 z-0 text active"
+        src="../assets/header-background.png"
+        draggable="false"
+        alt=""
+      />
+      <img
+        class="absolute left-0 top-0 z-0 text"
+        src="../assets/header-background-2.png"
+        draggable="false"
+        alt=""
+      />
+    </div>
 
     <div class="flex z-10 relative">
       <div class="uppercase developer-info sm:w-1/2 w-5/6">
@@ -49,11 +57,50 @@ import LinkedinIcon from "./icons/LinkedinIcon.vue";
 import TwitterIcon from "./icons/TwitterIcon.vue";
 export default {
   components: { EmailIcon, GithubIcon, LinkedinIcon, TwitterIcon },
+  mounted() {
+    function doThat() {
+      var imagesArray = Array.prototype.slice.call(
+        document.querySelectorAll(".text")
+      );
+      var imagesCount = imagesArray.length;
+      var active_li_index = 0;
+
+      setInterval(function () {
+        var activeImage = document.querySelector(".text.active");
+
+        if (imagesArray.indexOf(activeImage) == imagesCount - 1)
+          active_li_index = 0;
+        else active_li_index++;
+
+        activeImage.classList.remove("active");
+        document
+          .querySelectorAll(".text")
+          // eslint-disable-next-line no-unexpected-multiline
+          [active_li_index].classList.add("active");
+      }, 4000);
+    }
+
+    doThat();
+  },
 };
 </script>
 
 <style>
 .developer-info {
   font-family: "Work Sans", sans-serif;
+}
+
+.text {
+  position: absolute;
+  opacity: 0;
+  transition: opacity 3s ease-in-out;
+}
+
+.container-2 {
+  display: flex;
+}
+
+.active {
+  opacity: 0.8;
 }
 </style>
