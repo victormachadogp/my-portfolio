@@ -1,5 +1,5 @@
 <template>
-  <div class="flex mb-32 px-5 sm:px-10 md:px-10 xl:px-0">
+  <div class="flex mb-32 px-5 sm:px-10 md:px-10 xl:px-0 z-10 relative">
     <div class="w-2/5 sm:block hidden"></div>
     <div class="sm:w-3/5 w-full">
       <h3 class="text-2xl font-medium pb-2">Latest Readings</h3>
