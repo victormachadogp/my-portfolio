@@ -63,8 +63,8 @@
         "
       >
         <div class="flex justify-between py-3 pb-3">
-          <p class="text-left">Haruki Murakami</p>
-          <p class="text-right">Norwegian Wood</p>
+          <p class="text-left">Norwegian Wood</p>
+          <p class="text-right">Haruki Murakami</p>
         </div>
         <p class="leading-8 py-3 hidden">Quote</p>
       </div>
