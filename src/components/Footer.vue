@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <div>
+  <div class="image-wrapper">
+    <div class="">
       <img
         class="absolute right-0 bottom-0 z-0 image-opacity active"
         src="../assets/footer-background.png"
@@ -96,5 +96,15 @@ export default {
 
 .active {
   opacity: 0.8;
+}
+
+@media (min-width: 1536px) {
+  .image-wrapper {
+    position: relative;
+  }
+
+  .image-opacity {
+    margin-right: -10rem;
+  }
 }
 </style>
