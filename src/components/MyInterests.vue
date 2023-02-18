@@ -1,5 +1,22 @@
 <template>
-  <div class="px-5 sm:px-10 md:px-10 xl:px-0">
+  <div class="px-5 sm:px-10 md:px-10 xl:px-0 relative">
+    <!-- <div>
+      <img
+        class="absolute left-0 top-0 z-0 image-fade-middle active"
+        src="../assets/middle-background.png"
+        draggable="false"
+        alt=""
+      />
+      <img
+        class="absolute left-0 top-0 z-0 image-fade-middle"
+        src="../assets/middle-background-2.png"
+        draggable="false"
+        alt=""
+      />
+    </div> -->
+
+
+
     <h2 class="text-4xl font-medium">My Interests</h2>
 
     <div class="mt-12 mb-20">
@@ -79,10 +96,12 @@
 </template>
 
 <script>
-export default {};
+export default {
+   
+};
 </script>
 
-<style>
+<style scoped>
 .custom-underline {
   background-image: linear-gradient(to bottom, #111 75%, #111 75%);
   background-repeat: repeat-x;
