@@ -2,6 +2,21 @@
   <div
     class="flex sm:flex-row flex-col mt-14 mb-12 px-5 sm:px-10 md:px-10 xl:px-0"
   >
+<!-- <div class="absolute left-0 right-0 z-0 margin-top">
+      <img
+        class="absolute left-0 top-0 z-0 image-fade-middle active"
+        src="../assets/middle-background.png"
+        draggable="false"
+        alt=""
+      />
+      <img
+        class="absolute left-0 top-0 z-0 image-fade-middle"
+        src="../assets/middle-background-2.png"
+        draggable="false"
+        alt=""
+      />
+    </div> -->
+
     <img
       class="absolute left-0 sm:opacity-75 opacity-30 z-0"
       src="../assets/decoration.svg"
