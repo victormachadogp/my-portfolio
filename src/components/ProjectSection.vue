@@ -93,7 +93,7 @@ export default {
           paragraph:
             "Developed for a UK based personal branding using Nuxt.js and Tailwind CSS. Stepping Stones Ed is a website to promote an childrens workbook.",
           backgroundImage: require("../assets/site-banner-3.jpg"),
-          projectPath: "https://steppingstonesed.co.uk/",
+          projectPath: "https://nuxtstepping-stones-ed.netlify.app/",
         },
       ],
     };
