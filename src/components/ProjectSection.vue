@@ -45,6 +45,7 @@
           :title-text="project.title"
           :backgroundPath="project.backgroundImage"
           :paragraph="project.paragraph"
+          :tags="project.tags"
         ></ProjectItem>
       </div>
       <button
@@ -80,6 +81,7 @@ export default {
             "Developed for a US based company using Nuxt.js and Tailwind CSS. Hikma is multi-language website used to promote the learning of new languages.",
           backgroundImage: require("../assets/site-banner-1.jpg"),
           projectPath: "https://hikmalanguages.com/",
+          tags: ["Vue", "Storyblok", "Tailwind CSS"]
         },
         {
           title: "Todo - REST API",
@@ -87,6 +89,7 @@ export default {
             "Todo List developed using Vue and Tailwind CSS, I used json-server as a fake api to handle the data.",
           backgroundImage: require("../assets/site-banner-2.jpg"),
           projectPath: "https://amazing-brown-915705.netlify.app/",
+          tags: ["Vue"]
         },
         {
           title: "Stepping Stones Ed",
@@ -94,6 +97,7 @@ export default {
             "Developed for a UK based personal branding using Nuxt.js and Tailwind CSS. Stepping Stones Ed is a website to promote an childrens workbook.",
           backgroundImage: require("../assets/site-banner-3.jpg"),
           projectPath: "https://nuxtstepping-stones-ed.netlify.app/",
+          tags: ["Vue"]
         },
       ],
     };

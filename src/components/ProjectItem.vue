@@ -12,9 +12,11 @@
       </div>
       <div
         class="image-container hidden lg:block"
-        :style="{ 'background-image': `url(${backgroundPath})` }"
       >
-        <!-- <img class="w-full" src="../assets/site-banner-1.jpg" alt="" /> -->
+      <img class="mb-4" :src="backgroundPath" alt="example image">
+      <span class="px-3 py-1 mr-2 border border-black rounded-full text-sm" v-for="tag in tags" :key="tag">
+        {{tag}}
+      </span>
       </div>
     </a>
   </div>
@@ -42,6 +44,9 @@ export default {
     projectLink: {
       type: String,
     },
+    tags: {
+      type: Array,
+    },
   },
 };
 </script>
@@ -54,18 +59,18 @@ export default {
 }
 
 .project-info:hover ~ .image-container {
-  height: 250px;
+  height: 295px;
   transition-duration: 0.35s;
   /* background-color: green; */
 }
 
 .image-container:hover {
-  height: 250px;
+  height: 295px;
   transition-duration: 0.35s;
-  /* background-color: green; */
 }
 
 .image-container {
   background-repeat: no-repeat;
+  overflow: hidden;
 }
 </style>
