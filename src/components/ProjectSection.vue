@@ -81,15 +81,15 @@ export default {
             "Developed for a US based company using Nuxt.js and Tailwind CSS. Hikma is multi-language website used to promote the learning of new languages.",
           backgroundImage: require("../assets/site-banner-1.jpg"),
           projectPath: "https://hikmalanguages.com/",
-          tags: ["Vue", "Storyblok", "Tailwind CSS"]
+          tags: ["Vue", "Nuxt", "Storyblok", "Tailwind CSS"]
         },
         {
-          title: "Todo - REST API",
+          title: "SouthMovies - Movie Portal",
           paragraph:
-            "Todo List developed using Vue and Tailwind CSS, I used json-server as a fake api to handle the data.",
-          backgroundImage: require("../assets/site-banner-2.jpg"),
-          projectPath: "https://amazing-brown-915705.netlify.app/",
-          tags: ["Vue"]
+            "A React movie portal that consumes data from an API. It also has information about films such as synopsis, cast, director and rating. Users can also watch trailers and search by title or genre.",
+          backgroundImage: require("../assets/react-movies.jpg"),
+          projectPath: "https://resonant-bonbon-bf745d.netlify.app/",
+          tags: ["React", "SASS"]
         },
         {
           title: "Stepping Stones Ed",
@@ -97,7 +97,7 @@ export default {
             "Developed for a UK based personal branding using Nuxt.js and Tailwind CSS. Stepping Stones Ed is a website to promote an childrens workbook.",
           backgroundImage: require("../assets/site-banner-3.jpg"),
           projectPath: "https://nuxtstepping-stones-ed.netlify.app/",
-          tags: ["Vue"]
+          tags: ["Vue", "Nuxt", "Tailwind CSS"]
         },
       ],
     };
