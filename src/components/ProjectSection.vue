@@ -48,9 +48,8 @@
           :tags="project.tags"
         ></ProjectItem>
       </div>
-      <a
-      href="https://github.com/victormachadogp"
-        class="
+      <button
+      class="
           uppercase
           btn-style
           font-bold
@@ -61,8 +60,12 @@
           mt-12
         "
       >
+      <a
+      href="https://github.com/victormachadogp"
+      >
         View All Github Projects
       </a>
+      </button>
     </div>
   </div>
 </template>
