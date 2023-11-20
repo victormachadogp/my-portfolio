@@ -1,8 +1,7 @@
 <template>
   <div id="app" class="overflow-hidden relative">
-    <TheSidebar />
     <section
-      class="overflow-hidden main-container mx-auto 2xl:mx-0 2xl:container"
+      class="overflow-hidden main-container mx-auto 2xl:container relative"
     >
       <div class="max-w-5xl 2xl:max-w-6xl mx-auto">
         <TheHeader />
@@ -27,7 +26,6 @@ import MyInterests from "./components/MyInterests.vue";
 import LatestReadings from "./components/LatestReadings.vue";
 import Quote from "./components/Quote.vue";
 import Footer from "./components/Footer.vue";
-import TheSidebar from "./components/TheSidebar.vue";
 
 export default {
   name: "App",
@@ -41,7 +39,6 @@ export default {
     LatestReadings,
     Quote,
     Footer,
-    TheSidebar,
   },
 };
 </script>
